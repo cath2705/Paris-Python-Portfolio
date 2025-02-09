@@ -1,6 +1,11 @@
 ## Hi there 👋
 # About Me 👋 
 
+<code><img height="200px" src="assets/thomas-bormans-IHQHXj3jv6E-unsplash.jpg"></code>
+
+<span>Photo by <a href="https://unsplash.com/@thomasbormans?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thomas Bormans</a> on <a href="https://unsplash.com/s/photos/old-books?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+
 Hello! 😁 My Name is Catherine Paris. 
 
 I'm a Global Affairs major at the University of Notre Dame. I have minors in 1) Computing and Digital Technology Studies, 2) Foundations of Business, 3) Gender Studies. I am set to graduate in May 2027. I am originally from Summit, New Jersey but actually live abroad in London now! In my free time, I enjoy scrapbooking, watching ice hockey (go rangers!), and spending time with my friends :)
