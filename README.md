@@ -5,10 +5,11 @@ Hello! 😁 My Name is Catherine Paris.
 
 I'm a Global Affairs major at the University of Notre Dame. I have minors in 1) Computing and Digital Technology Studies, 2) Foundations of Business, 3) Gender Studies. I am set to graduate in May 2027. I am originally from Summit, New Jersey but actually live abroad in London now! In my free time, I enjoy scrapbooking, watching ice hockey (go rangers!), and spending time with my friends :)
 
-- 🌱 I’m currently learning Python through platforms like Google Colab and VS Code.
-- 💻 I'm comfortable working on data visualization projects and using libraries like Seaborn to create clear, informative visual representations of data.
-- 😄 I'm looking forward to better understanding GitHub and all its features! 
+- Current Projects:🌱 I’m currently learning Python through platforms like Google Colab and VS Code.
+- Skills 💻: I'm comfortable working on data visualization projects and using libraries like Seaborn to create clear, informative visual representations of data.
+- Goals 😄:  I'm looking forward to better understanding GitHub and all its features! 
 - Fun fact: I've broken the same leg twice 🫣
+- Contact Links: https://www.linkedin.com/in/catherine-paris/ 
 
 
 <!--
@@ -25,4 +26,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-hi hi
