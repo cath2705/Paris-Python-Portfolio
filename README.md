@@ -5,7 +5,7 @@ This repository will serve as a centralized location for all my projects in Elem
 Looking ahead at this semester, I anticipate making four major updates to my GitHub, each corresponding to key milestones in the course. These updates will showcase my progress, including refining analytical techniques, improving visualization methods, and iterating on models. Additionally, I may include smaller updates such as code optimizations, documentation enhancements, or reflections on my learning process.
 
 ## Projects
-### Tidy Data Project
+## Tidy Data Project!
 🔗 [View the Tidy Data Project Repository](https://github.com/cath2705/TidyData-Project)
 
 📄 Project Description
