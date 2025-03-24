@@ -30,14 +30,23 @@ This project is based on Hadley Wickham's "Tidy Data" paper and explores the pri
 
 
 ## Basic Penguins Streamlit App!
+🔗 [View Basic Penguins Streamlit App](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/basic_streamlit_app/main.py)
 
 📄 Project Description
-In this project I I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset. This app leverages Streamlit’s interactive components to allow users to filter, visualize, and analyze penguin data dynamically.
+In this project, I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset. This app leverages Streamlit’s UI components to allow users to filter, visualize, and analyze penguin data dynamically — right from the browser.
 
 ### This project specfically 
-- The app starts with a welcoming title and provides an easy-to-use interface with sidebar filters and interactive plots.
-- I used st.sidebar.multiselect() to create multi-selection dropdowns for users to filter data and I used .unique() to extract unique species and islands dynamically.
-- By incoperating def["species"].isin(species) the app filters the dataset based on user selection.
-- By using the st.checkbox("Show Raw Data") command, I created a checkbox that users can click to toggle raw data on and off.
-- Users can also filter the data by species using the sidebar options (which also allows for real-time data exploration).
-- By using st.button() I creates a button that, when clicked, executes code. By using random.choice(facts) the app will select and display a random fact from a predefined list. By using st.success() renders the selected fact with a highlighted success message. All this comes toegther so that when users click the fun fact button, users learn random facts, adding a fun touch to the app.
+- Starts with a welcoming title and provides an easy-to-use interface with sidebar filters and interactive plots.
+- Uses st.sidebar.multiselect() to create multi-selection dropdowns for filtering species and islands.
+- Dynamically pulls unique species and islands using .unique() to make the filter options responsive to the data.
+- Applies df["species"].isin(species) to filter the dataset based on the user’s selection in real-time.
+- Implements a st.checkbox("Show Raw Data") to toggle display of the raw DataFrame.
+- Includes a st.button() labeled for fun — when clicked, it uses random.choice(facts) to display a random penguin fact with st.success(), adding a fun, user-friendly element to the app.
+
+### 💼 This project highlights my ability to:
+- Build and deploy interactive web apps using Streamlit
+- Work with pandas and data filtering techniques
+- Write clean and modular Python code
+- Integrate data science with user-friendly interfaces
+- Add playful, engaging features to enhance UX
+
