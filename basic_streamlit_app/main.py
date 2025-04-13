@@ -9,6 +9,8 @@ import random #this will be used to generate random fun facts
 # Set the title
 st.title("🐧 Penguin Data Explorer")
 
+st.write("This interactive app allows users to learn more about penguins by filtering through species and islands. Additionally, if users click the button they can see a fun fact! ")
+
 # Load the dataset
 csv_path = "data/penguins.csv"  
 @st.cache_data
@@ -43,5 +45,3 @@ if st.button("🐧 Fun Penguin Fact!"):
     ]
     st.success(random.choice(facts))
     # this creates a button that when clicked shows a random fun fact about penguins chosen from the list
-
-    st.write("This interactive app allows users to learn more penguins by filtering through species and islands. Additionally, if users click the button they can see a fun fact! ")
