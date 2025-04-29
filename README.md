@@ -52,7 +52,7 @@ In this project, I used Streamlit to create an interactive data exploration app 
 
 _______________________________________________________________________________________________________________________________________________
 ## 🔍 Custom Named Entity Recognition (NER) Streamlit App!
-🔗 View NER Streamlit App: http://localhost:8501/ 
+🔗 View NER Streamlit App: [http://localhost:8501/ ](https://paris-python-portfolio-nerapp.streamlit.app/)
 
 ### 📄 Project Description
 This project focuses on Named Entity Recognition (NER) — a foundational Natural Language Processing (NLP) task — and presents it through an interactive, educational Streamlit app built from scratch using spaCy. The goal of the app is to help users intuitively understand how NER works, experiment with entity recognition on their own text, and even create custom rules for tagging new entity types.
