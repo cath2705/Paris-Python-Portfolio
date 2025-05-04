@@ -30,7 +30,7 @@ This project is based on Hadley Wickham's "Tidy Data" paper and explores the pri
 _______________________________________________________________________________________________________________________________________________
 
 ## Basic Penguins Streamlit App!
-🔗 [View Basic Penguins Streamlit App](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/basic_streamlit_app/main.py)
+🔗 [View Basic Penguins Streamlit App](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/basic_streamlit_app)
 
 📄 Project Description
 In this project, I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset. This app leverages Streamlit’s UI components to allow users to filter, visualize, and analyze penguin data dynamically — right from the browser.
