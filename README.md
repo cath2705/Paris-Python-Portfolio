@@ -6,7 +6,7 @@ Looking ahead at this semester, I anticipate making four major updates to my Git
 _______________________________________________________________________________________________________________________________________________
 ## Projects
 ## Tidy Data Project!
-🔗 [View the Tidy Data Project Repository](https://github.com/cath2705/TidyData-Project)
+🔗 [View the Tidy Data Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/TidyDate-Project-main)
 
 📄 Project Description
 This project is based on Hadley Wickham's "Tidy Data" paper and explores the principles of organizing datasets to make analysis easier and more efficient. The project involves:
