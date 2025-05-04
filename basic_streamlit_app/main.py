@@ -12,12 +12,22 @@ st.title("🐧 Penguin Data Explorer")
 st.write("This interactive app allows users to learn more about penguins by filtering through species and islands. Additionally, if users click the button they can see a fun fact! ")
 
 # Load the dataset
-csv_path = "data/penguins.csv"  
+CSV_PATH = "data/penguins.csv"
+
 @st.cache_data(ttl=0)
 def load_data():
-    return pd.read_csv("data/penguins.csv")
+    return pd.read_csv(CSV_PATH)
 
 df = load_data()
+
+
+
+#csv_path = "data/penguins.csv"  
+#@st.cache_data(ttl=0)
+#def load_data():
+#    return pd.read_csv("data/penguins.csv")
+
+#df = load_data()
 
 if st.checkbox("Show Raw Data"): # Creates a checkbox in the app, that if clicked will display the FULL dataset
     st.write(df)
