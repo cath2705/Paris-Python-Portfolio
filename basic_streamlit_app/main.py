@@ -12,14 +12,13 @@ st.title("🐧 Penguin Data Explorer")
 st.write("This interactive app allows users to learn more about penguins by filtering through species and islands. Additionally, if users click the button they can see a fun fact! ")
 
 # Load the dataset
-CSV_PATH = "data/penguins.csv"
+csv_path = "basic_streamlit_app/data/penguins.csv"
 
 @st.cache_data(ttl=0)
 def load_data():
-    return pd.read_csv(CSV_PATH)
+    return pd.read_csv(csv_path)
 
 df = load_data()
-
 
 
 #csv_path = "data/penguins.csv"  
