@@ -5,6 +5,9 @@
 Welcome to my Basic Penguins Streamlit App! This app leverages Streamlit’s interactive components to allow users to filter, visualize, and analyze penguin data dynamically. I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset.
 
 ## 🔗 [Click here to access my Basic Penguins Streamlit App Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/basic_streamlit_app/main.py)
+## 🔗 [Click here to access the App!](https://paris-python-portfolio-penguins-app.streamlit.app/)
+
+<code><img height="500" src="image_penguin/pen-sc5.jpg"></code>
 
 ## Goals: 
 The goal of this project is to transform a dataset containing information about penguin species, island location, and physical attributes (e.g., flipper length, body mass, sex) into an interactive app that allows users to easily explore correlations between these variables and analyze the data in a fun, engaging way.
