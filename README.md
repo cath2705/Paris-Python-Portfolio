@@ -6,7 +6,7 @@ Looking ahead at this semester, I anticipate making four major updates to my Git
 _______________________________________________________________________________________________________________________________________________
 ## Projects
 ## Tidy Data Project!
-🔗 [View the Tidy Data Project Repository](https://github.com/cath2705/TidyData-Project)
+🔗 [View the Tidy Data Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/TidyDate-Project-main)
 
 📄 Project Description
 This project is based on Hadley Wickham's "Tidy Data" paper and explores the principles of organizing datasets to make analysis easier and more efficient. The project involves:
@@ -30,7 +30,7 @@ This project is based on Hadley Wickham's "Tidy Data" paper and explores the pri
 _______________________________________________________________________________________________________________________________________________
 
 ## Basic Penguins Streamlit App!
-🔗 [View Basic Penguins Streamlit App](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/basic_streamlit_app/main.py)
+🔗 [View Basic Penguins Streamlit App](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/basic_streamlit_app)
 
 📄 Project Description
 In this project, I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset. This app leverages Streamlit’s UI components to allow users to filter, visualize, and analyze penguin data dynamically — right from the browser.

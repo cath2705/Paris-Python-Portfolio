@@ -3,12 +3,11 @@
  
 ## Click here to access my Tidy Data Jupyter Notebook! 🧹🧹[Tidy_Data_Project_2008_Olympic_Medals](https://colab.research.google.com/drive/17gWuFKJFb9PEGto3XrJtkQpoLxRQLR0g#scrollTo=_5WaUqfZmB8e))
 
-
 ### 🧹Tidy Data Project-- 2008 Olympic Medal Analysis 🏅
 <code><img height="500" src="assets/olympic-fireworks.avif"></code>
 
 ### 📌 Project Overview
-Welcome to my Tidy Data Project! This repository demonstrates how to clean, reshape, and visualize real-world Olympic medal data using Python — while applying the principles of tidy data, effective data visualization, and reproducible analysis. This project explores and cleans a dataset of Olympic medalists from the 2008 Summer Olympics, focusing on reshaping a wide-format dataset into tidy format to enable meaningful analysis and visualization.
+Welcome to my Tidy Data Project! This project demonstrates how to clean, reshape, and visualize real-world Olympic medal data using Python — while applying the principles of tidy data, effective data visualization, and reproducible analysis. This project explores and cleans a dataset of Olympic medalists from the 2008 Summer Olympics, focusing on reshaping a wide-format dataset into tidy format to enable meaningful analysis and visualization.
 
 ## Goals: 
 The goal of this project is to transform a messy dataset on Olympic medals into a clean, tidy format that is easy to analyze, visualize, and interpret. 
