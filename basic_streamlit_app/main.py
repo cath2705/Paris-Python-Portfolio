@@ -13,9 +13,9 @@ st.write("This interactive app allows users to learn more about penguins by filt
 
 # Load the dataset
 csv_path = "data/penguins.csv"  
-@st.cache_data
+@st.cache_data(ttl=0)
 def load_data():
-    return pd.read_csv(csv_path)
+    return pd.read_csv("data/penguins.csv")
 
 df = load_data()
 
