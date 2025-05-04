@@ -2,6 +2,8 @@ About my Basic Penguins Streamlit App!
 
 I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset. This app leverages Streamlit’s interactive components to allow users to filter, visualize, and analyze penguin data dynamically.
 
+🔗 [Click here to access my Basic Penguins Streamlit App Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/basic_streamlit_app/main.py)
+
 The app starts with a welcoming title and provides an easy-to-use interface with sidebar filters and interactive plots.
 I used st.sidebar.multiselect() to create multi-selection dropdowns for users to filter data and I used .unique() to extract unique species and islands dynamically.
 By incoperating def["species"].isin(species) the app filters the dataset based on user selection.
