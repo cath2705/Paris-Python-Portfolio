@@ -1,5 +1,5 @@
 # TidyData-Project
- This repository will contain my Tidy Data Project
+ This ReadMe will explain my Tidy Data Project
  
 ## Click here to access my Tidy Data Jupyter Notebook! 🧹🧹[Tidy_Data_Project_2008_Olympic_Medals](https://colab.research.google.com/drive/17gWuFKJFb9PEGto3XrJtkQpoLxRQLR0g#scrollTo=_5WaUqfZmB8e))
 
