@@ -123,28 +123,43 @@ Here are some of the key visual outputs from the notebook:
 ### 🥇 Medal Count by Sport
 - Bar chart showing the top 10 sports by total number of medals awarded.
 <code><img height="500" src="assets/Top 10 Sports with the Most Medals.png"></code>
+
+<br />
+
 I created a bar graph to visualize how many medals each sport got. 
 I can see that "track and field" had the most medals by a decently sized margin (this make sense since the sport includes many individual events like sprints, hurdles, relays, jumps, throws, etc), "rowing" had the 2nd greatest number of medals, and swimming had the 3rd greatest number of medals. 
 
 ### 👥 Medal Count by Gender
 - Grouped bar chart comparing male vs. female medal counts per sport.
 <code><img height="500" src="assets/Medals by Gender (Top 10 Sports).png"></code>
+
+<br />
+
 I created a bar graph to visualize a comparison of how many medals each gender got per sport
 Track and field stands out as the sport with the highest number of medals for both male and female athletes—in part reflecting the wide variety of events offered to both genders. Swimming is also well-balanced, with female athletes slightly edging out their male counterparts, suggesting strong participation and equity in event offerings. In contrast, rowing displays a significant gender gap, with male athletes earning substantially more medals—likely due to a greater number of male events or higher male participation during that Olympic cycle
 
 ### 🥉 Medal Type Distribution
 - Horizontal bar chart showing the number of bronze, silver, and gold medals.
 <code><img height="500" src="assets/Medal Type Distribution.png"></code>
+
+<br />
+
 I created a bar graph to visualize how many of each kind of medal (gold, silver, bronze) was won. Bronze medals were the most frequently awarded, followed by silver, with gold being the least common. This outcome aligns with the standard Olympic format, where each event awards one gold, one silver, and typically two bronze medals (for example in certain sports such as judo and wrestling, where both semifinal losers receive bronze). 
 
 ### 🧁 Pie Chart: Sports by Medal Share
 - Visualizes the percentage breakdown of medals by sport (top 10). 
 <code><img height="500" src="assets/Top 10 Sports by Medal Count.png"></code>
+
+<br />
+
 I created a pie chart as an alternative way to visualize how many medals each sport got. Track and field clearly dominates the chart, accounting for 16.3% of all medals, which is expected given its wide range of events including sprints, jumps, throws, and relays. Rowing follows closely with 13.8%, reflecting its numerous race categories and team events. Swimming also holds a substantial share at 12.3%, thanks to the variety of strokes and distances contested. 
 
 ### 📊 Stacked Bar Chart: Medal Types by Sport
 - Shows medal types (gold/silver/bronze) stacked for each sport.
 <code><img height="500" src="assets/Medal Distribution by Sport.png"></code>
+
+<br />
+
 I am creating "Medal Distribution by Sport" stacked bar chart to show how many of each KIND of medal was won per sport. Track and field once again stands out, with the highest overall medal count and a relatively balanced distribution among all three medal types. Association football follows with a significant number of medals, dominated by bronze and gold, which aligns with the team-based format where a fixed number of medals are awarded per tournament. 
 
 ## Important Lessons
