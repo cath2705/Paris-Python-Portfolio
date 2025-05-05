@@ -8,18 +8,16 @@ st.set_page_config(layout="wide")
 st.title("🌍 Global Tariff Impact Map")
 
 # Load the dataset
-df = pd.read_csv("StreamlitFinal/data/Cleaned_Trump_Tariffs.csv")
+df = pd.read_csv("StreamlitFinal/data/v2.csv")
 
 # Custom hover text
 df["Old_Hover"] = df.apply(
-    lambda row: f"The US has placed a {row['Old_Tariff_Rate']}% tariff rate on {row['Country']}.\n"
-                f"{row['Country']} makes up {row['Share_US_Import']}% of US imports.",
+    lambda row: f"The US has placed a {row['Old_Tariff_Rate']}% tariff rate on {row['Country']}.\n",
     axis=1
 )
 
 df["New_Hover"] = df.apply(
-    lambda row: f"The US has placed a {row['New_Tarriff_Rate']}% tariff rate on {row['Country']}.\n"
-                f"{row['Country']} makes up {row['Share_US_Import']}% of US imports.",
+    lambda row: f"The US has placed a {row['New_Tarriff_Rate']}% tariff rate on {row['Country']}.\n",
     axis=1
 )
 
