@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("🌍 Global Tariff Impact Map")
 
-df = pd.read_csv("data/Cleaned_Trump_Tariffs.csv")
+df = pd.read_csv("../data/Cleaned_Trump_Tariffs.csv")
 fig = px.choropleth(df,
                     locations="Country",
                     locationmode="country names",
