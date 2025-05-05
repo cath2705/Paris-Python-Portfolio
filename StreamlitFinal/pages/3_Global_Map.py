@@ -11,11 +11,27 @@ st.title("🌍 Global Tariff Impact Map")
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
 # Add a news image 
-st.image("path/to/your/news_image.jpg", caption="Source: News Outlet", use_column_width=True)
+st.image("StreamlitFinal/images/trump1.png", caption="Source: BCC", use_column_width=True)
+
+# adding link to source
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <a href="https://www.bbc.com/news/articles/c5ypxnnyg7jo" target="_blank">
+            <u>Click to read full article</u>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Add historical and usage context
+st.markdown(
+    "<h3 style='text-align: center;'>In a Nutshell: Trump’s Tariffs</h3>",
+    unsafe_allow_html=True
+)
+
 st.markdown("""
-### 📈 Context
 
 In the early part of the second Trump administration (January–April 2025), the average effective U.S. tariff rate surged from **2.5% to an estimated 27%** — the highest level in over a century.
 
@@ -26,19 +42,29 @@ The visualizations below compare:
 - **New Tariff Rates** (after April 9th, or post-freeze)
 
 ---
+                        """)
 
-### How to Use This Tool
+st.markdown(
+    "<h3 style='text-align: center;'>How to Use This Tool</h3>",
+    unsafe_allow_html=True
+)
 
+st.markdown("""
 You’ll find **two interactive heat maps** displayed side-by-side:
-- The **left map** shows **pre-April 9th (old)** tariff rates.
-- The **right map** shows **post-April 9th (new)** tariff rates.
+- The **left map** shows **old (pre-April 9th)** tariff rates.
+- The **right map** shows **new (post-April 9th)** tariff rates.
 
 **Darker colors** indicate **higher tariff intensities**. You can:
 - **Zoom**, pan, and explore both maps.
-- **Hover over any country** to see a detailed breakdown of the U.S. tariff rate imposed on that country and its share of U.S. imports.
+- **Hover over any country** to see the specific tariff rate the US imposed on that country
 
-This tool is designed to help users **quickly understand** which regions were most affected and how U.S. trade policy shifted during this critical time.
-""")
+This tool is designed to help users **quickly understand** which regions were most affected.
+
+   ---         
+            
+            """)
+
+
 
 # Custom hover text
 df["Old_Hover"] = df.apply(
@@ -103,3 +129,29 @@ with col2:
 
     st.subheader("New Tariff Rate Map")
     st.plotly_chart(fig_new, use_container_width=False)
+    
+st.markdown(
+    """
+    ### 🔍 What’s Really Going On?
+
+    A clear pattern emerges when comparing the pre- and post-April 9th tariffs:  
+    **The United States is deliberately targeting China.** While tariffs on other countries were frozen or reduced, China’s remained in effect.
+
+    Even more striking is the **post-freeze uniformity** — nearly **every country except China now faces a flat 10% tariff**. This reset is not based on any specific trade behavior like tariffs, VATs, or digital services taxes. Instead, the new rates are **derived from a formula**:  
+    > **Trade deficit ÷ U.S. imports**, with a **minimum tariff of 10%.**
+
+    In short, these rates are mechanically determined by trade aggregates, not policy nuance.
+
+    For example:
+    - **Singapore**, a free-trade-oriented nation, and **Brazil**, which uses heavy tariffs and restrictions, both receive the **same 10% tariff** — purely due to their goods trade balances with the U.S.
+    - **Vietnam**, a country that has actively sought to align with U.S. policy, also receives no preferential treatment under the new system.
+
+    > 📉 **Exports to the U.S. make up nearly 30% of Vietnam’s GDP.**  
+    > Under the proposed formula, Vietnam narrowly avoided a devastating 46% tariff — which could have pushed its economy into recession.  
+    > Instead, it will now pay the 10% minimum.
+
+    Meanwhile, even **close U.S. allies** with free trade agreements — like **Australia** and **South Korea** — are affected. Despite having **zero-tariff access** on many exports under past agreements, they now face a **significant shift** in their trade relationships due to the new flat-rate system.
+
+    This reset represents a profound restructuring of U.S. trade policy logic — from politically negotiated rates to formula-driven automation.
+    """
+)
