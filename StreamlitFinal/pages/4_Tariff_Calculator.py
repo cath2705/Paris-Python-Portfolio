@@ -11,4 +11,4 @@ price = st.number_input("Original product price ($):", min_value=0.0)
 tariff_rate = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
 new_price = price * (1 + tariff_rate / 100)
 
-st.success(f"A {product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
+st.success(f"{product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
