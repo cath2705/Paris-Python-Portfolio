@@ -59,9 +59,12 @@ data = {
         "headline": "Trump Inaugurated",
         "text": "Donald Trump is sworn in as President of the United States."
       },
-      
-   "image_path": "StreamlitFinal/images/trump1.png"
-
+     
+      "media": {
+                "url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2194365306.jpg?c=16x9&q=w_1280,c_fill",
+                "caption": "Trump being sworn in",
+                "credit": "CNN"
+            }
     },
     {
       "start_date": {
