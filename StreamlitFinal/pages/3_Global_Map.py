@@ -129,13 +129,28 @@ with col2:
 
     st.subheader("New Tariff Rate Map")
     st.plotly_chart(fig_new, use_container_width=False)
-    
+
+# adding link to source
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+            <u>Source of Map Data </u>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 st.markdown(
     """
     ### 🔍 What’s Really Going On?
 
-    A clear pattern emerges when comparing the pre- and post-April 9th tariffs:  
-    **The United States is deliberately targeting China.** While tariffs on other countries were frozen or reduced, China’s remained in effect.
+    A clear pattern emerges when comparing the pre- and post-April 9th tariffs:
+
+    The new tariff map shows a dramatic reduction or elimination of tariffs for most countries, with China standing out as the sole nation facing a substantial increase. China’s new rate is 125%, represented by the darkest blue. This suggests a deliberate and strategic pivot, concentrating tariff pressure almost exclusively on China while easing trade restrictions elsewhere. 
+
+       ---   
 
     Even more striking is the **post-freeze uniformity** — nearly **every country except China now faces a flat 10% tariff**. This reset is not based on any specific trade behavior like tariffs, VATs, or digital services taxes. Instead, the new rates are **derived from a formula**:  
     > **Trade deficit ÷ U.S. imports**, with a **minimum tariff of 10%.**
@@ -154,4 +169,16 @@ st.markdown(
 
     This reset represents a profound restructuring of U.S. trade policy logic — from politically negotiated rates to formula-driven automation.
     """
+)
+
+# adding link to source
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <a href="https://taxfoundation.org/blog/trump-reciprocal-tariffs-calculations/" target="_blank">
+            <u>Read More from Tax Foundation </u>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
