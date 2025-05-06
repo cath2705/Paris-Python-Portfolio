@@ -332,7 +332,7 @@ data = {
         "The tariffs would most likely add to the taxes facing China, which in 2023 bought 68% of the oil exported by Venezuela, per the U.S. Energy Information Administration"
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.opb.org%2Farticle%2F2025%2F03%2F24%2Ftrump-says-countries-that-buy-venezuelan-oil-will-face-25-tariff%2F&psig=AOvVaw2ffFoGFIpws1Zq_rPPIRbJ&ust=1746648845201000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODe05PUj40DFQAAAAAdAAAAABAJ",
+                "url": "https://opb-opb-prod.cdn.arcpublishing.com/resizer/v2/SEYWJZQU5FBYVMLSFSJBEYUXHY.jpg?auth=184aef592ab27c300a81cf8df4dbc318727e36bcd89040ab96990ad92990a3f6&width=767",
                 "caption": "President Trump speaks at executive order signing in the East Room of the White House on March 20, 2025",
                 "credit": "OPB"
             }
