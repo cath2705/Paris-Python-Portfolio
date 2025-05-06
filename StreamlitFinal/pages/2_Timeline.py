@@ -86,7 +86,12 @@ data = {
       "text": {
         "headline": "Canada Energy Tariff",
         "text": "10% tariff on Canadian energy resources.  Following discussions with Canadian Prime Minister Justin Trudeau and Mexican President Claudia Sheinbaum, the administration agreed to a one-month pause on the implementation of these tariffs, contingent upon enhanced border enforcement measures by both countries."
-      }
+      },
+      "media": {
+                "url": "https://images.wsj.net/im-23074905?width=700&height=467",
+                "caption": "Ontario’s Doug Ford wearing Cananda not for sale hat",
+                "credit": "WSJ"
+            }
     },
     {
       "start_date": {
