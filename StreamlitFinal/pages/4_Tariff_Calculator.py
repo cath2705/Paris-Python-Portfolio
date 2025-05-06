@@ -5,7 +5,7 @@ import pandas as pd
 st.title("🧮 Tariff Impact Calculator")
 
 # Add image
-st.image("StreamlitFinal/images/make_wealthy1.png", caption="Source: AXIOS", use_column_width=True)
+st.image("StreamlitFinal/images/make_wealthy1.png", caption="Source: AXIOS", use_container_width =True)
 
 #add text
 st.markdown(
@@ -21,7 +21,7 @@ st.markdown(
 )
 
 # Add image
-st.image("StreamlitFinal/images/Tarriff_Man1.png", caption="Source: AXIOS", use_column_width=True)
+st.image("StreamlitFinal/images/Tarriff_Man1.png", caption="Source: AXIOS", use_container_width=True)
 
 #add text
 st.markdown(
@@ -102,7 +102,7 @@ st.markdown(
 )
 
 # Add image
-st.image("StreamlitFinal/images/consume1.png", caption="Source: BCC", use_column_width=True)
+st.image("StreamlitFinal/images/consume1.png", caption="Source: BCC", use_container_width =True)
 
 #add text
 st.markdown(

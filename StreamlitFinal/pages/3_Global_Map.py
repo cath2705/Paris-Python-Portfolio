@@ -11,7 +11,7 @@ st.title("🌍 Global Tariff Impact Map")
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
 # Add a news image 
-st.image("StreamlitFinal/images/trump1.png", caption="Source: BCC", use_column_width=True)
+st.image("StreamlitFinal/images/trump1.png", caption="Source: BCC", use_container_width=True)
 
 # adding link to source
 st.markdown(
