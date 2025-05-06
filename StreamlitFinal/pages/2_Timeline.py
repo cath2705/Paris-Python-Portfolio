@@ -413,7 +413,7 @@ data = {
         "text": "President Trump’s higher “reciprocal” rates go into effect, hiking taxes on imports from dozens of countries just after midnight. But hours later, the administration suspended the implementation of the higher tariffs (above the universal 10%) for 90 days for all countries except China (whose tariffs are now 125%), following concerns over potential economic repercussions."
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foxbusiness.com%2Fvideo%2F6371278277112&psig=AOvVaw0lsgW3cKRTWiMgxOCvHU0A&ust=1746651888459000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIje1L_fj40DFQAAAAAdAAAAABAJ",
+                "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/65170d71-aab3-4988-96c3-97d2d0b18e4e/32721817-8fe9-4741-b3fe-2b7afa583d23/1280x720/match/image.jpg?pubId=854081161001",
                 "credit": "FOX News"
             }
     },
