@@ -73,19 +73,8 @@ data = {
         "day": 23
       },
       "text": {
-        "headline": "Canada/Mexico Tariff Separation",
-        "text": "Updated to separate out 25% tariffs on Canada and Mexico given threats these could begin February 1."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 1,
-        "day": 31
-      },
-      "text": {
-        "headline": "Analysis of 25% Tariffs",
-        "text": "Additional analysis of proposed 25% tariffs on Canada and Mexico."
+        "headline": "Initial Tariff Announcements and Temporary Pauses",
+        "text": "President Trump signed executive orders imposing a 25% tariff on all imports from Canada and Mexico, and a 10% tariff on imports from China, citing concerns over illegal immigration and drug trafficking."
       }
     },
     {
@@ -96,7 +85,7 @@ data = {
       },
       "text": {
         "headline": "Canada Energy Tariff",
-        "text": "10% tariff on Canadian energy resources."
+        "text": "10% tariff on Canadian energy resources.  Following discussions with Canadian Prime Minister Justin Trudeau and Mexican President Claudia Sheinbaum, the administration agreed to a one-month pause on the implementation of these tariffs, contingent upon enhanced border enforcement measures by both countries."
       }
     },
     {
@@ -106,239 +95,74 @@ data = {
         "day": 4
       },
       "text": {
-        "headline": "Historical Analysis",
-        "text": "Distributional and historical analysis of proposed tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 2,
-        "day": 6
-      },
-      "text": {
-        "headline": "Duty-Free Ended",
-        "text": "Revenue effects of ending duty-free de minimis treatment from China."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 2,
-        "day": 10
-      },
-      "text": {
-        "headline": "Export Estimate Update",
-        "text": "Estimate of value of US exports targeted by China\u2019s retaliatory tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 2,
-        "day": 11
-      },
-      "text": {
-        "headline": "Trump-Biden Revenue Data",
-        "text": "New revenue collection data for the Trump-Biden tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 2,
-        "day": 13
-      },
-      "text": {
-        "headline": "Expanded Steel Tariffs",
-        "text": "Analysis of expanded steel and aluminum tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 2,
-        "day": 19
-      },
-      "text": {
-        "headline": "Trade War Details",
-        "text": "Details on 2025 trade war timeline and Trump's auto, steel, and aluminum tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 2,
-        "day": 27
-      },
-      "text": {
-        "headline": "EU & China Tariff Update",
-        "text": "25% tariff on EU imports and increased China tariffs modeled with new economic data."
+        "headline": "Tariffs Implemented",
+        "text": "The U.S. proceeded to implement the previously announced tariffs: 1) 25% on most goods from Canada and Mexico, with Canadian energy exports facing a reduced 10% tariff. 2) Chinese imports saw an increase from 10% to 20%."
       }
     },
     {
       "start_date": {
         "year": 2025,
         "month": 3,
-        "day": 3
+        "day": 2
       },
       "text": {
-        "headline": "Lumber & Agriculture",
-        "text": "Threatened tariffs on lumber and agriculture added."
+        "headline": "Liberation Day and Introduction of Reciprocal Tariffs",
+        "text": "President Trump declared April 2 as Liberation Day, introducing a 10% universal tariff on all imports, effective April 5. Additionally, higher tariffs ranging from 11% to 50% were announced for 57 countries, based on the principle of reciprocal trade practices."
       }
     },
     {
       "start_date": {
         "year": 2025,
         "month": 3,
-        "day": 4
-      },
-      "text": {
-        "headline": "Tariffs on Major Partners",
-        "text": "Trump imposes new tariffs on Canada, Mexico, and China."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 3,
-        "day": 7
-      },
-      "text": {
-        "headline": "Revenue Estimate Update",
-        "text": "Updates on revenue estimates for tariffs on Canada, Mexico, and China."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 3,
-        "day": 12
-      },
-      "text": {
-        "headline": "IEEPA Tariff Forecast",
-        "text": "Revenue/economic estimates for IEEPA tariffs and Section 232."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 3,
-        "day": 21
-      },
-      "text": {
-        "headline": "EU Retaliation Update",
-        "text": "Timeline for EU retaliation against US Section 232 tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 3,
-        "day": 25
-      },
-      "text": {
-        "headline": "Venezuela Tariff Threat",
-        "text": "New 'secondary' tariff threat on Venezuela and nations that import its oil or gas."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 4,
-        "day": 1
-      },
-      "text": {
-        "headline": "Auto Tariff Modeling",
-        "text": "New Section 232 auto tariff modeling and Venezuelan import tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 4,
-        "day": 3
-      },
-      "text": {
-        "headline": "Exemption List",
-        "text": "Exemption list released for April 2 universal tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 4,
-        "day": 3
-      },
-      "text": {
-        "headline": "April 2 Tariff Details",
-        "text": "Details of April 2 tariffs and updated auto/steel/aluminum measures."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 4,
-        "day": 4
-      },
-      "text": {
-        "headline": "China & Canada Retaliation",
-        "text": "Includes retaliatory tariffs by China and Canada."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 4,
         "day": 9
       },
       "text": {
-        "headline": "China Tariffs Increased",
-        "text": "50% tariff on all Chinese imports added."
+        "headline": " Temporary Suspension of Higher Tariffs",
+        "text": "The administration suspended the implementation of the higher tariffs (above the universal 10%) for 90 days for all countries except China, following concerns over potential economic repercussions."
       }
     },
     {
       "start_date": {
         "year": 2025,
-        "month": 4,
+        "month": 3,
         "day": 10
       },
       "text": {
-        "headline": "Reciprocal Tariffs Paused",
-        "text": "90-day pause of reciprocal tariffs and 125% China tariff increase."
+        "headline": "Supply Chain Disruptions Begin",
+        "text": "The increased tariffs led to significant disruptions in supply chains, particularly affecting imports from China. Retail experts warned of impending shortages and price increases for various consumer goods, including electronics and clothing."
+      }
+    },
+    {
+      "start_date": {
+        "year": 2025,
+        "month": 3,
+        "day": 30
+      },
+      "text": {
+        "headline": "Presidential Remarks on Consumer Goods",
+        "text": "President Trump downplayed concerns over product shortages, suggesting that Americans could manage with fewer imported goods, specifically mentioning that children might have two dolls instead of 30."
       }
     },
     {
       "start_date": {
         "year": 2025,
         "month": 4,
-        "day": 11
+        "day": 2
       },
       "text": {
-        "headline": "New China Chart",
-        "text": "Weighted average tariff chart updated; China\u2019s retaliatory rate incorporated."
+        "headline": "Closure of De Minimis Exemption for Chinese Imports",
+        "text": "The U.S. closed the de minimis exemption for Chinese imports, which previously allowed goods valued under $800 to enter the country duty-free. This move aimed to further restrict low-cost imports from China and encourage domestic manufacturing."
       }
     },
     {
       "start_date": {
         "year": 2025,
         "month": 4,
-        "day": 18
-      },
-      "text": {
-        "headline": "Electronics Exemption",
-        "text": "New exemption for electronics imports from 'reciprocal' tariffs."
-      }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 5,
         "day": 5
       },
       "text": {
-        "headline": "Stacking Order Rule",
-        "text": "Executive order limits stacking of Section 232 and IEEPA fentanyl tariffs on Canada/Mexico."
+        "headline": "Regional Responses and Economic Impactst",
+        "text": "Governors from six Northeastern U.S. states initiated efforts to strengthen economic ties with Canadian provinces, seeking to mitigate the adverse effects of the tariffs on regional economies. Retailers and consumers continued to experience the consequences of the tariffs, with reports of empty shelves and increased prices for various goods."
       }
     }
   ]
