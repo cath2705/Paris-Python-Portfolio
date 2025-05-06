@@ -365,7 +365,7 @@ data = {
         "Among those steeper levies, President Trump says the U.S. will now charge a 34% tax on imports from China, a 20% tax on imports from the European Union, 25% on South Korea, 24% on Japan and 32% on Taiwan. "
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgmk.center%2Fen%2Fnews%2Ftrump-announces-large-scale-reciprocal-tariffs-on-us-imports%2F&psig=AOvVaw3znWcCND4GqCFjlgrLnMA5&ust=1746649440725000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDArK3Wj40DFQAAAAAdAAAAABAE",
+                "url": "https://gmk.center/wp-content/uploads/2025/04/tarifi-2048x1547.jpg",
                 "caption": "President Trump's Reciprocal Tariffs ",
                 "credit": "GMK Center"
             }
@@ -381,7 +381,7 @@ data = {
         "text": "President Trump’s previously-announced auto tariffs begin. Prime Minister Mark Carney says that Canada will match the 25% levies with a tariff on vehicles imported from the U.S."
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2025%2F03%2F26%2Fus%2Ftrump-tariffs-auto-cars.html&psig=AOvVaw2d2Gc9JelvUx0gIhSb6CYX&ust=1746649508869000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCgwc7Wj40DFQAAAAAdAAAAABAE",
+                "url": "https://static01.nyt.com/images/2025/03/19/multimedia/26dc-autotariffs/19fed-blog-consumer-rates-tqzm-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
                 "credit": "New York Times"
             }
     },
@@ -398,7 +398,7 @@ data = {
       }
       ,
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FDestiny%2Fcomments%2F1jr93dd%2Fchina_retaliates_with_34_tariff_on_all_us_goods%2F&psig=AOvVaw36NiNAqZxR-DgucS944PWU&ust=1746649632269000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIC0uY3Xj40DFQAAAAAdAAAAABAJ",
+                "url": "https://external-preview.redd.it/china-retaliates-with-34-tariff-on-all-us-goods-v0-U9ahgqBBJvpkbRANcKSFLvuV-TB4YfpJ3_RpQp60X84.jpg?width=1080&crop=smart&auto=webp&s=02c04395c4ddc1f08ed0881a513a7a46b51e04ac",
                 "credit": "New York Times"
             }
     },
@@ -428,7 +428,7 @@ data = {
         "text": "The EU puts its steel and aluminum tariff retaliation on hold for 90 days, to match President Trump’s pause on steeper “reciprocal” levies. European Commission President Ursula von der Leyen says the commission wants to give negotiations with the U.S. a chance — but warns countermeasures will kick in if talks “are not satisfactory.”"
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dagens.com%2Fnews%2Fursula-von-der-leyen-welcomes-trumps-90-day-tariff-suspension-for-eu%2F&psig=AOvVaw2204M_dXcOXzTzPbQlRfus&ust=1746649843297000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIC2ue7Xj40DFQAAAAAdAAAAABAE",
+                "url": "https://www.politico.eu/cdn-cgi/image/width=1200,height=675,fit=crop,quality=80,onerror=redirect,format=auto/wp-content/uploads/2025/04/10/GettyImages-2208710838-scaled.jpg",
                 "caption": "Ursula von der Leyen at the EU headquarters in Brussels on 9 April 2025.",
                 "credit": "RFI"
             }
@@ -461,7 +461,7 @@ data = {
         "text": "The Trump administration also launches investigations into imports of computer chips, chipmaking equipment and pharmaceuticals — signaling next steps toward imposing tariffs on these sectors."
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cbsnews.com%2Fnews%2Fchip-pharmaceutical-imports-probe-trump-administration%2F&psig=AOvVaw0uNCpTic_p1qgTFcBSQ5GP&ust=1746650169582000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLD7k4rZj40DFQAAAAAdAAAAABAE",
+                "url": "https://i.ytimg.com/vi/O2Pc-mpSKNs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCls9FGpLL5TMxStJovtE3OAYJpUQ",
                 "credit": "CBS News"
             }
     },
