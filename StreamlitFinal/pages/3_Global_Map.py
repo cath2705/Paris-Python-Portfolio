@@ -11,7 +11,7 @@ st.title("🌍 Global Tariff Impact Map")
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
 # Add a news image 
-st.image("StreamlitFinal/images/trump1.png", caption="Source: BCC", use_container_width=True)
+st.image("StreamlitFinal/images/trump1.png", caption="Source: BCC")
 
 # adding link to source
 st.markdown(
@@ -103,7 +103,7 @@ with col1:
     fig_old.update_coloraxes(colorbar_title="Old Tariff Rate")
 
     st.subheader("Old Tariff Rate Map")
-    st.plotly_chart(fig_old, use_container_width=False)
+    st.plotly_chart(fig_old,)
 
 # NEW Tariff Map
 with col2:
@@ -128,7 +128,7 @@ with col2:
     fig_new.update_coloraxes(colorbar_title="New Tariff Rate")
 
     st.subheader("New Tariff Rate Map")
-    st.plotly_chart(fig_new, use_container_width=False)
+    st.plotly_chart(fig_new)
 
 # adding link to source
 st.markdown(
