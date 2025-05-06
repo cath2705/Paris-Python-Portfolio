@@ -58,7 +58,10 @@ data = {
       "text": {
         "headline": "Trump Inaugurated",
         "text": "Donald Trump is sworn in as President of the United States."
-      }
+      },
+      
+   "image_path": "StreamlitFinal/images/trump1.png"
+
     },
     {
       "start_date": {
