@@ -77,7 +77,7 @@ tariff_rate = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
 new_price = price * (1 + tariff_rate / 100)
 
 st.success(f"{product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
-
+#adding source
 st.markdown(
     """
     <div style='text-align: center;'>

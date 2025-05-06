@@ -3,3 +3,9 @@ st.markdown(
     BBC Visual Journalism Team. (2025, April 10). See the Trump tariffs list by country. BBC News. https://www.bbc.com/news/articles/c5ypxnnyg7jo
     ""
 )
+
+st.markdown(
+    """
+    Basu, Z. (2024, September 25). “The greatest thing ever invented”: Tariffs become Trump's miracle cure. Axios. https://www.axios.com/newsletters/axios-am-e887e5e0-7a99-11ef-beff-09494ba2e897
+    ""
+)
