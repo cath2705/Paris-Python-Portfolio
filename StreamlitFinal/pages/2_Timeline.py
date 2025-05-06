@@ -140,7 +140,7 @@ data = {
         "text": "President Trump proceeded to implement the previously announced tariffs on China. Chinese imports saw an increase from 10% to 20%. China retaliated the same day with a flurry of countermeasures, including sweeping new duties on a variety of American goods and an anti-monopoly investigation into Google."
       },
       "media": {
-                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hoosieragtoday.com%2F2025%2F02%2F04%2Fchina-trump-tariffs%2F&psig=AOvVaw20t9TL7C-objTwAtDkgaVh&ust=1746646699609000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDY-JXMj40DFQAAAAAdAAAAABAE",
+                "url": "https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/2103/2024/05/22225433/US-CHINA-AG-TRADE-ORIGINAL-PHOTO.jpeg",
                 "credit": "Hoosier Ag Today"
             }
     },
