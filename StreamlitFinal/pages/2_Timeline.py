@@ -315,15 +315,6 @@ data = {
         "The Commerce Ministry in Beijing says it will also impose more export controls on rare earths, which are materials used in high-tech products like computer chips and electric vehicle batteries. And the government adds 27 firms to lists of companies subject to trade sanctions or export controls."
       }
     },
-    
-
-
-
-
-
-
-
-
     {
       "start_date": {
         "year": 2025,
@@ -331,8 +322,8 @@ data = {
         "day": 9
       },
       "text": {
-        "headline": " Temporary Suspension of Higher Tariffs",
-        "text": "The administration suspended the implementation of the higher tariffs (above the universal 10%) for 90 days for all countries except China, following concerns over potential economic repercussions."
+        "headline": "90 Day Suspension of Higher Tariffs",
+        "text": "Trump’s higher “reciprocal” rates go into effect, hiking taxes on imports from dozens of countries just after midnight. But hours later, the administration suspended the implementation of the higher tariffs (above the universal 10%) for 90 days for all countries except China (whose tariffs are now 125%), following concerns over potential economic repercussions."
       }
     },
     {
@@ -342,43 +333,55 @@ data = {
         "day": 10
       },
       "text": {
-        "headline": "Supply Chain Disruptions Begin",
-        "text": "The increased tariffs led to significant disruptions in supply chains, particularly affecting imports from China. Retail experts warned of impending shortages and price increases for various consumer goods, including electronics and clothing."
+        "headline": "EU Implements 90 Day Suspension",
+        "text": "The EU puts its steel and aluminum tariff retaliation on hold for 90 days, to match Trump’s pause on steeper “reciprocal” levies. European Commission President Ursula von der Leyen says the commission wants to give negotiations with the U.S. a chance — but warns countermeasures will kick in if talks “are not satisfactory.”"
       }
     },
     {
       "start_date": {
         "year": 2025,
         "month": 3,
-        "day": 30
+        "day": 11
       },
       "text": {
-        "headline": "Presidential Remarks on Consumer Goods",
-        "text": "President Trump downplayed concerns over product shortages, suggesting that Americans could manage with fewer imported goods, specifically mentioning that children might have two dolls instead of 30."
+        "headline": "China Responds: 125% Tariff ",
+        "text": "China says it will raise tariffs on U.S. goods from 84% to 125%, in response to Trump’s heightened levies. The new rate is set to begin April 12."
+        "Later, the Trump administration unveils that electronics, including smartphones and laptops, will be exempt from so-called “reciprocal” tariffs. "
+      }
+    },
+    {
+      "start_date": {
+        "year": 2025,
+        "month": 3,
+        "day": 14
+      },
+      "text": {
+        "headline": "Trump Continues China Investigation",
+        "text": "The Trump administration also launches investigations into imports of computer chips, chipmaking equipment and pharmaceuticals — signaling next steps toward imposing tariffs on these sectors."
+      }
+    },
+    {
+      "start_date": {
+        "year": 2025,
+        "month": 3,
+        "day": 29
+      },
+      "text": {
+        "headline": "Executive Orders to Relax Auto Tariffs",
+        "text": "Trump signs executive orders to relax some of his 25% tariffs on automobiles and auto parts — aimed at easing import taxes for vehicles that are made with foreign parts, but assembled in the U.S."
       }
     },
     {
       "start_date": {
         "year": 2025,
         "month": 4,
-        "day": 2
+        "day": 4
       },
       "text": {
-        "headline": "Closure of De Minimis Exemption for Chinese Imports",
-        "text": "The U.S. closed the de minimis exemption for Chinese imports, which previously allowed goods valued under $800 to enter the country duty-free. This move aimed to further restrict low-cost imports from China and encourage domestic manufacturing."
+        "headline": "Trump Threatens Film Tariff",
+        "text": "Trump threatens a 100% tariff on foreign-made films, while claiming that the movie industry in the U.S. is dying. It isn’t immediately clear how such a tariff on international productions could be implemented, but Trump says he’s authorized the Commerce Department and the U.S. Trade Representative to “immediately begin the process.”"
       }
     },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 4,
-        "day": 5
-      },
-      "text": {
-        "headline": "Regional Responses and Economic Impactst",
-        "text": "Governors from six Northeastern U.S. states initiated efforts to strengthen economic ties with Canadian provinces, seeking to mitigate the adverse effects of the tariffs on regional economies. Retailers and consumers continued to experience the consequences of the tariffs, with reports of empty shelves and increased prices for various goods."
-      }
-    }
   ]
 }
 
