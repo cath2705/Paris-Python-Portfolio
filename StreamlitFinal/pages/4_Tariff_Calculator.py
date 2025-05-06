@@ -21,7 +21,7 @@ st.markdown(
 )
 
 # Add image
-st.image("StreamlitFinal/images/Tarriff_Man1.png", caption="Source: AXIOS", use_container_width=True)
+st.image("StreamlitFinal/images/Tarriff_Man1.png", caption="Source: AXIOS")
 
 #add text
 st.markdown(
