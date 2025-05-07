@@ -188,11 +188,11 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
         # adding link to source
         st.markdown(
               """
-              <div style='text-align: center;'>
-                a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
-                <u>Source of Map Data </u>
-                </a>
-              </div>
+                <div style='text-align: center;'>
+                    a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+                    <u>Source of Map Data </u>
+                    </a>
+                 </div>
               """,
               unsafe_allow_html=True
         )
