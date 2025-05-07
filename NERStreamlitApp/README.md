@@ -178,5 +178,5 @@ ________________________________________________________________________________
 <br />
 
 ### Enjoy Learning about Named Entity Recognition!
-st.image("https://www.labellerr.com/blog/content/images/2024/01/ner-1.webp")
+<code><img height="400" src="NERStreamlitApp/patterns/NERRR.png"></code>
 
