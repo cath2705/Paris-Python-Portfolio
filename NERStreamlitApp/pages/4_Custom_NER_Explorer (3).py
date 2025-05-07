@@ -121,7 +121,7 @@ st.write("""
 import streamlit as st
 from PIL import Image
 
-image_path = "/Users/catherineparis/Documents/GitHub/Paris-Python-Portfolio/NERStreamlitApp/Screenshot1.png"
+image_path = "NERStreamlitApp/patterns/Screenshot1.png"
 image = Image.open(image_path)
 st.image(image, caption="First, I imputed the sentence into the Custom NER Explorer app with no added entity labels or pattern text, to see what that output would look like. As you can see, the app (incorrectly) recognized Tesla as NORP (NORP is SpaCy’s classification for Nationalities or religious or political groups) ", 
          #use_container_width=True
