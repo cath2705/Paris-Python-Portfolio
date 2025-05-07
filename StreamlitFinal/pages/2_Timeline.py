@@ -5,13 +5,13 @@ import json
 st.set_page_config(page_title="Tariff Timeline", layout="centered")
 st.title("📅 Interactive Tariff Policy Timeline")
 st.markdown("Explore key moments in global tariff policy with this interactive timeline.")
-st.markdown("""
- 
+
+data = {
 "media": {
                 "url": "https://koreajoongangdaily.joins.com/data/photo/2025/04/07/3cc32714-d70e-43c6-a498-949fb9bd49b7.jpg",
                 "credit": "Korea JoongAng Daily"
             }
-            """)
+}
 
 #text line seperating information
 st.markdown("""
