@@ -122,121 +122,117 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
                     - **Hover over any country** to see the specific tariff rate the US imposed on that country
 
                      """) 
-
-
-# Custom hover text
-df["Old_Hover"] = df.apply(
-    lambda row: f"The US has placed a {row['Old_Tariff_Rate']}% tariff rate on {row['Country']}.\n",
-    axis=1
-)
-
-df["New_Hover"] = df.apply(
-    lambda row: f"The US has placed a {row['New_Tarriff_Rate']}% tariff rate on {row['Country']}.\n",
-    axis=1
-)
-
-# Create columns for side-by-side layout
-col1, col2 = st.columns(2)
-
-# OLD Tariff Map 
-with col1:
-    fig_old = px.choropleth(
-        df,
-        locations="Country",
-        locationmode="country names",
-        color="Old_Tariff_Rate",
-        hover_name="Country",
-        hover_data={"Old_Hover": True},
-        color_continuous_scale="Reds",
-        title="Old Tariff Intensity by Country",
-        width=1000,
-        height=600
-    )
-
-    fig_old.update_traces(
-        hovertemplate="<b>%{customdata[0]}</b><br><br>%{customdata[1]}<extra></extra>",
-        customdata=df[["Country", "Old_Hover"]]
-    )
-
-    fig_old.update_coloraxes(colorbar_title="Old Tariff Rate")
-
-    st.subheader("Old Tariff Rate Map")
-    st.plotly_chart(fig_old,)
-
-# NEW Tariff Map
-with col2:
-    fig_new = px.choropleth(
-        df,
-        locations="Country",
-        locationmode="country names",
-        color="New_Tarriff_Rate",  # Spelling intentional
-        hover_name="Country",
-        hover_data={"New_Hover": True},
-        color_continuous_scale="Blues",
-        title="New Tariff Intensity by Country",
-        width=1000,
-        height=600
-    )
-
-    fig_new.update_traces(
-        hovertemplate="<b>%{customdata[0]}</b><br><br>%{customdata[1]}<extra></extra>",
-        customdata=df[["Country", "New_Hover"]]
-    )
-
-    fig_new.update_coloraxes(colorbar_title="New Tariff Rate")
-
-    st.subheader("New Tariff Rate Map")
-    st.plotly_chart(fig_new)
-
-# adding link to source
-st.markdown(
-    """
-    <div style='text-align: center;'>
-        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
-            <u>Source of Map Data </u>
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-st.markdown(
-    """
-    ### 🔍 What’s Really Going On?
-
-    A clear pattern emerges when comparing the pre- and post-April 9th tariffs:
-
-    The new tariff map shows a dramatic reduction or elimination of tariffs for most countries, with China standing out as the sole nation facing a substantial increase. China’s new rate is 125%, represented by the darkest blue. This suggests a deliberate and strategic pivot, concentrating tariff pressure almost exclusively on China while easing trade restrictions elsewhere. 
-
-       ---   
-
-    Even more striking is the **post-freeze uniformity** — nearly **every country except China now faces a flat 10% tariff**. This reset is not based on any specific trade behavior like tariffs, VATs, or digital services taxes. Instead, the new rates are **derived from a formula**:  
-    > **Trade deficit ÷ U.S. imports**, with a **minimum tariff of 10%.**
-
-    In short, these rates are mechanically determined by trade aggregates, not policy nuance.
-
-    For example:
-    - **Singapore**, a free-trade-oriented nation, and **Brazil**, which uses heavy tariffs and restrictions, both receive the **same 10% tariff** — purely due to their goods trade balances with the U.S.
-    - **Vietnam**, a country that has actively sought to align with U.S. policy, also receives no preferential treatment under the new system.
-
-    > 📉 **Exports to the U.S. make up nearly 30% of Vietnam’s GDP.**  
-    > Under the proposed formula, Vietnam narrowly avoided a devastating 46% tariff — which could have pushed its economy into recession.  
-    > Instead, it will now pay the 10% minimum.
-
-    Meanwhile, even **close U.S. allies** with free trade agreements — like **Australia** and **South Korea** — are affected. Despite having **zero-tariff access** on many exports under past agreements, they now face a **significant shift** in their trade relationships due to the new flat-rate system.
-
-    This reset represents a profound restructuring of U.S. trade policy logic — from politically negotiated rates to formula-driven automation.
-    """
-)
-
-# adding link to source
-st.markdown(
-    """
-    <div style='text-align: center;'>
-        <a href="https://taxfoundation.org/blog/trump-reciprocal-tariffs-calculations/" target="_blank">
-            <u>Read More from Tax Foundation </u>
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+        # Custom hover text
+        df["Old_Hover"] = df.apply(
+             lambda row: f"The US has placed a {row['Old_Tariff_Rate']}% tariff rate on {row['Country']}.\n",
+             axis=1
+             )
+        
+        df["New_Hover"] = df.apply(
+            lambda row: f"The US has placed a {row['New_Tarriff_Rate']}% tariff rate on {row['Country']}.\n",
+            axis=1
+            )
+        
+        # Create columns for side-by-side layout
+        col1, col2 = st.columns(2)
+        
+        # OLD Tariff Map 
+        with col1:
+            fig_old = px.choropleth(
+            df,
+            locations="Country",
+            locationmode="country names",
+            color="Old_Tariff_Rate",
+            hover_name="Country",
+            hover_data={"Old_Hover": True},
+            color_continuous_scale="Reds",
+            title="Old Tariff Intensity by Country",
+            width=1000,
+            height=600
+        )
+            fig_old.update_traces(
+            hovertemplate="<b>%{customdata[0]}</b><br><br>%{customdata[1]}<extra></extra>",
+            customdata=df[["Country", "Old_Hover"]]
+        )
+            
+        fig_old.update_coloraxes(colorbar_title="Old Tariff Rate")
+        
+        st.subheader("Old Tariff Rate Map")
+        st.plotly_chart(fig_old,)
+        
+        # NEW Tariff Map
+        with col2:
+            fig_new = px.choropleth(
+            df,
+            locations="Country",
+            locationmode="country names",
+            color="New_Tarriff_Rate",  # Spelling intentional
+            hover_name="Country",
+            hover_data={"New_Hover": True},
+            color_continuous_scale="Blues",
+            title="New Tariff Intensity by Country",
+            width=1000,
+            height=600
+        )
+            
+        fig_new.update_traces(
+             hovertemplate="<b>%{customdata[0]}</b><br><br>%{customdata[1]}<extra></extra>",
+             customdata=df[["Country", "New_Hover"]]
+        )
+        
+        fig_new.update_coloraxes(colorbar_title="New Tariff Rate")
+        
+        st.subheader("New Tariff Rate Map")
+        st.plotly_chart(fig_new)
+        
+        # adding link to source
+        st.markdown(
+              """
+              <div style='text-align: center;'>
+              a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+              <u>Source of Map Data </u>
+              </a>
+              </div>
+              """,
+              unsafe_allow_html=True
+        )
+        
+        st.markdown(
+             """
+             ### 🔍 What’s Really Going On?
+             
+             A clear pattern emerges when comparing the pre- and post-April 9th tariffs:
+             The new tariff map shows a dramatic reduction or elimination of tariffs for most countries, with China standing out as the sole nation facing a substantial increase. China’s new rate is 125%, represented by the darkest blue. This suggests a deliberate and strategic pivot, concentrating tariff pressure almost exclusively on China while easing trade restrictions elsewhere. 
+              
+                ---   
+                
+            Even more striking is the **post-freeze uniformity** — nearly **every country except China now faces a flat 10% tariff**. This reset is not based on any specific trade behavior like tariffs, VATs, or digital services taxes. Instead, the new rates are **derived from a formula**:  
+            > **Trade deficit ÷ U.S. imports**, with a **minimum tariff of 10%.**
+            In short, these rates are mechanically determined by trade aggregates, not policy nuance.
+            
+            For example:
+            - **Singapore**, a free-trade-oriented nation, and **Brazil**, which uses heavy tariffs and restrictions, both receive the **same 10% tariff** — purely due to their goods trade balances with the U.S.
+            - **Vietnam**, a country that has actively sought to align with U.S. policy, also receives no preferential treatment under the new system.
+            
+            > 📉 **Exports to the U.S. make up nearly 30% of Vietnam’s GDP.**  
+            > Under the proposed formula, Vietnam narrowly avoided a devastating 46% tariff — which could have pushed its economy into recession.  
+            > Instead, it will now pay the 10% minimum.
+            
+            Meanwhile, even **close U.S. allies** with free trade agreements — like **Australia** and **South Korea** — are affected. Despite having **zero-tariff access** on many exports under past agreements, they now face a **significant shift** in their trade relationships due to the new flat-rate system.
+            
+            This reset represents a profound restructuring of U.S. trade policy logic — from politically negotiated rates to formula-driven automation.
+            
+            """
+        )
+        
+        # adding link to source
+        st.markdown(
+             """
+             <div style='text-align: center;'>
+             <a href="https://taxfoundation.org/blog/trump-reciprocal-tariffs-calculations/" target="_blank">
+             <u>Read More from Tax Foundation </u>
+             </a>
+             </div>
+        """,
+        unsafe_allow_html=True
+        )
