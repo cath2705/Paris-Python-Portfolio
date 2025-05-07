@@ -2,10 +2,10 @@
  This ReadMe will explain my Final Streamlit App, which is an app to explore President Trump's Tariffs
 
  ## 🔗 Click here to access my Final Streamlit App Code
-- [Main Page](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/main.py)
-- [Timeline Page](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/pages/2_Timeline.py)
-- [Global Map Page](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/pages/3_Global_Map.py)
-- [Tariff Calculator Page](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/pages/4_Tariff_Calculator.py)
+- [Main Page Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/main.py)
+- [Timeline Page Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/pages/2_Timeline.py)
+- [Global Map Page Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/pages/3_Global_Map.py)
+- [Tariff Calculator Page Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/pages/4_Tariff_Calculator.py)
 
 ## 🔗 [Click here to access the App!](https://tariff-tracker-catherine.streamlit.app/)
 
