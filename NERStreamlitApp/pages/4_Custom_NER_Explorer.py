@@ -137,7 +137,7 @@ st.write("""
 
 st.markdown("---")
 
-
+# Expandable section to explain how custom rules improve accuracy
 with st.expander("✋ Quick digression: See how custom rules improve accuracy"):
     st.write("Observe how the accuracy improves as custom rules are added.")
 
@@ -158,6 +158,7 @@ with st.expander("✋ Quick digression: See how custom rules improve accuracy"):
 
 st.markdown("---")
 
+# new text section to explain use-case
 st.write("""
          ### Back to Our Example Use Case!
 
