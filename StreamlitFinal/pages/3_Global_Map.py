@@ -57,8 +57,28 @@ st.markdown(
     """
 This interactive map will help you better understand the aforementioned average effective U.S. tariff rate (27% globally) on a country-by-country basis. It’s a hover map: simply move your mouse over any country to see the average effective tariff rate that the United States has imposed on that nation.
 
-Please note that this map reflects **average **effective tariff rates of each country. This is important because, during the Trump administration's second term, tariffs were frequently adjusted—some were increased, then quickly withdrawn, as shown in the tariff timeline on the previous page. As a result, rather than displaying a real-time tariff rate (which may differ at this exact moment), the map presents an average rate to give a more stable and meaningful view of U.S. trade policy over time.
+Please note that this map reflects **average** effective tariff rates of each country. This is important because, during the Trump administration's second term, tariffs were frequently adjusted—some were increased, then quickly withdrawn, as shown in the tariff timeline on the previous page. As a result, rather than displaying a real-time tariff rate (which may differ at this exact moment), the map presents an average rate to give a more stable and meaningful view of U.S. trade policy over time.
     """) 
+
+st.markdown(
+    "<h3 style='text-align: center;'>How to Use This Tool</h3>",
+    unsafe_allow_html=True
+)
+
+st.markdown("""
+- Use your mouse to zoom, pan, and explore both maps.
+- Hover over any country to view the specific average tariff rate the U.S. has imposed on that nation.
+
+**Color Scale Guide:**
+- Dark blue indicates the highest tariff intensity
+- Dark red indicates the lowest tariff intensity
+
+This tool is designed to help users **quickly understand** which regions were most affected.
+
+   ---         
+            
+            """)
+
 
 fig_avg = px.choropleth(
     df,
@@ -97,7 +117,6 @@ st.markdown(
 )
 
 st.markdown("""
-You’ll find **two interactive heat maps** displayed side-by-side:
 - The **left map** shows **Old Tariff Rates** (before April 9th, or pre-freeze)
 - The **right map** shows **New Tariff Rates** (after April 9th, or post-freeze)
 
