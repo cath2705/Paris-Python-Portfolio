@@ -143,8 +143,8 @@ st.markdown(
     """
 Projections of proposed tariffs on tech products reveal significant consequences for U.S. consumers, with sharp increases in retail prices across essential electronics and an estimated 120 billion dollar reduction in consumer **purchasing power.** 
 This matters because tariffs, often aimed at protecting domestic industries, **can unintentionally burden everyday consumers—especially** in sectors like technology that touch nearly every aspect of modern life. 
-For instance, laptops and tablets would face a 45% price hike, with average costs rising by 357 dollars
-and 201 dollars, respectively, while smartphones could go up by 213 dollars. 
+For instance, laptops and tablets would face a 45% price hike, with average costs rising by \$357
+and \$201, respectively, while smartphones could go up by \$213. 
 Even smaller accessories like headphones and batteries would see noticeable increases. 
 These projections show that industry-wide tariffs don’t just affect manufacturers—they ripple through the economy, reducing what consumers can afford, slowing tech adoption, and disproportionately impacting lower- and middle-income households.         
 
@@ -156,5 +156,5 @@ with st.expander("What Does Purchasing Power Mean👉"):
         st.markdown("""
                     **Purchasing power** refers to the amount of goods or services that a person can buy with a certain amount of money. When prices go up—like in the case of tariffs—your purchasing power goes down because the same amount of money buys you **less** than it did before.
                     
-                    For example, if you had 1,000 dollars to spend on tech and laptops used to cost 500 dollars, you could buy two. But if tariffs raise laptop prices to 750 dollar each, now you can only afford one. Your **purchasing power has decreased** even though the amount of money you have hasn’t changed.
+                    For example, if you had \$1,000 to spend on tech and laptops used to cost \$500, you could buy two. But if tariffs raise laptop prices to 750 dollar each, now you can only afford one. Your **purchasing power has decreased** even though the amount of money you have hasn’t changed.
                     """)
