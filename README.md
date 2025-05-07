@@ -25,6 +25,9 @@ This project explores the global impact of U.S. tariff policy during the Trump a
 - Design with storytelling in mind—combining visualizations, contextual text, and user interactivity to enhance understanding of tariff dynamics.
 - Create practical tools (like the tariff calculator) that help users apply abstract policy concepts to real-world financial scenarios.
 
+### Skills: 
+Skills: Python, Streamlit, Pandas, Plotly Express, Data Visualization, Interactive Dashboards, JSON, UX/UI Design, Choropleth Maps, Timeline Visualization, User Input Handling
+
 _______________________________________________________________________________________________________________________________________________
 ## 🔍 Custom Named Entity Recognition (NER) Streamlit App!
 🔗 [View NER Streamlit App Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/NERStreamlitApp)
