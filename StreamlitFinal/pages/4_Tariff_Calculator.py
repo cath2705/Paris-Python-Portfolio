@@ -67,63 +67,44 @@ We automatically apply the correct tariff percentage based on the country of ori
 No need to research tariff rates or do any math — this tool does it all for you.
 """)
 
-# Load data once
+# Load data
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
-# Initialize outside values for comparison
-# Initialize shared comparison variables
-country_old = None
-country_new = None
-price_old = 0
-price = 0
-old_price = None
-new_price = None
+# --- User Input (shared for both tariffs) ---
+st.header("Tariff Calculator Tool (Old vs. New)")
+country = st.selectbox("Select manufacturing country:", df["Country"])
+price = st.number_input("Original product price ($):", min_value=0.0)
 
-# Create two columns
+# --- Get tariff rates ---
+old_tariff = df.loc[df["Country"] == country, "Old_Tariff_Rate"].values[0]
+new_tariff = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
+
+# --- Calculate prices ---
+old_price = price * (1 + old_tariff / 100)
+new_price = price * (1 + new_tariff / 100)
+
+# --- Layout: side-by-side results ---
 col1, col2 = st.columns(2)
 
-# --- Old Tariff Calculator (Left) ---
 with col1:
-    st.header("🕰️ Old Tariff Calculator (Pre April 9th)")
-    country_old = st.selectbox("Selec manufacturing country (old tariff):", df["Country"], key="country_old")
-    price_old = st.number_input("Original product price ($) (old tariff):", min_value=0.0, key="price_old")
+    st.subheader("🕰️ Old Tariff Calculator (Pre April 9th)")
+    st.success(f"A product made in {country} used to cost **${old_price:.2f}** due to a {old_tariff}% tariff.")
 
-    old_tariff_rate = df.loc[df["Country"] == country_old, "Old_Tariff_Rate"].values[0]
-    old_price = price_old * (1 + old_tariff_rate / 100)
-
-    st.success(f"A product made in {country_old} used to cost **${old_price:.2f}** due to a {old_tariff_rate}% tariff.")
-
-# --- New Tariff Calculator (Right) ---
 with col2:
-    st.header("❄️ New Tariff Calculator (Post April 9th Freeze)")
-    country = st.selectbox("Select manufacturing country:", df["Country"], key="country_new")
-    price = st.number_input("Original product price ($):", min_value=0.0, key="price_new")
+    st.subheader("❄️ New Tariff Calculator (Post April 9th Freeze)")
+    st.success(f"A product made in {country} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
 
-    tariff_rate = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
-    new_price = price * (1 + tariff_rate / 100)
-
-    st.success(f"A product made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
-
-# --- Price Comparison (Bottom) ---
-if (
-    old_price is not None and
-    new_price is not None and
-    price_old > 0 and
-    price > 0 and
-    country_old == country_new
-):
-    price_diff = old_price - new_price
-    percent_change = (price_diff / old_price) * 100 if old_price != 0 else 0
-
-    st.markdown("---")
-    st.subheader("📊 Price Comparison Summary")
-    st.markdown(f"""
-    - **Old Tariff Price:** ${old_price:.2f}  
-    - **New Tariff Price:** ${new_price:.2f}  
-    - **Price Difference:** ${price_diff:.2f}  
-    - **Change:** {abs(percent_change):.2f}% {"decrease" if percent_change > 0 else "increase"}
-    """)
-
+# --- Source ---
+st.markdown(
+    """
+    <div style='text-align: center; margin-top: 30px;'>
+        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+            <u>Source of Tool Percentages</u>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 #adding source
 st.markdown(
