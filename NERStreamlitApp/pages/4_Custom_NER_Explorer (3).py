@@ -104,7 +104,7 @@ with st.expander("# Click to Find Out 👉"):
     st.markdown("")
 
     st.image(
-    "/SC2.png", caption=" Here is a list of what SpaCy Named Entity Recognition labels mean ", 
+    "NERStreamlitApp/pages/SC2.png", caption=" Here is a list of what SpaCy Named Entity Recognition labels mean ", 
         #use_container_width=True
     )
 
