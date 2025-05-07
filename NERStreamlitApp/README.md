@@ -178,5 +178,3 @@ ________________________________________________________________________________
 <br />
 
 ### Enjoy Learning about Named Entity Recognition!
-<code><img height="400" src="NERStreamlitApp/patterns/NERRR.png"></code>
-
