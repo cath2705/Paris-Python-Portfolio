@@ -22,9 +22,13 @@ ________________________________________________________________________________
 
 ## Overview of the App's Layout 
 The app is composed of 4 pages that each serve a different informational purpose. 
-Here is an overview of the folder structure:
+Here is an overview of the website structure:
 
-<img width="431" alt="Screenshot 2025-04-14 at 10 46 46 PM" src="https://github.com/user-attachments/assets/a969dd9f-0bf9-4b29-b03c-fd10f0b2b1c8" />
+├── Welcome.py                
+├── pages/
+│   ├── 1_Basic_NER.py
+│   ├── 2_How_NER_Works.py
+│   └── 3_Custom_NER_Explorer.py
 
 Here is a description of what each page does: 
 
