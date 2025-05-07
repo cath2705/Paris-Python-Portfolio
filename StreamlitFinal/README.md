@@ -49,9 +49,9 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 | *What the interactive timeline feature looks like on the streamlit app* |
 <br />
 
-| <code><img height="400" src="patterns/quiz2.png"></code> | 
+| <code><img height="400" src="images/time-code.png"></code> | 
 |:--:| 
-| *Code used to create interactive quiz* |
+| *Code used to create interactive timeline. Note: this is only a snippet of the full code. I had to code in the images, text, and sources for each point on the timeline* |
 <br />
 
 **"Global Map" Page:**
@@ -60,14 +60,14 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 - Users can hover over any country to view the exact average tariff rate the U.S. has imposed.
 - Applies a red-to-blue diverging color scale to visually communicate tariff intensity.
   
-| <code><img height="300" src="images/hover-expo.png"></code> | 
+| <code><img height="500" src="images/hover-expo.png"></code> | 
 |:--:| 
-| *What the hover map feature looks like on the streamlit app* |
+| *What the hover map feature looks like on the streamlit app. In this image, you can see I am hovering over Chad.* |
 <br />
 
-| <code><img height="400" src="patterns/quiz2.png"></code> | 
+| <code><img height="400" src="images/hover-code.png"></code> | 
 |:--:| 
-| *Code used to create interactive quiz* |
+| *Code used to create hover map. When executing yourself, make sure to upload a dataset first!* |
 <br />
 
 **"Tariff Calculator" Page:**
@@ -77,11 +77,11 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 
 | <code><img height="300" src="images/calc-expo.png"></code> | 
 |:--:| 
-| *What the Tariff Calculator feature looks like on the streamlit app* |
+| *What the Tariff Calculator feature looks like on the streamlit app. In this image, you can see the calculators gave me the new price of a $10 item* |
 <br />
 
-| <code><img height="400" src="patterns/quiz2.png"></code> | 
+| <code><img height="400" src="images/calc-tool.png"></code> | 
 |:--:| 
-| *Code used to create interactive quiz* |
+| *Code used to create Tariff Calculator* |
 <br />
 
