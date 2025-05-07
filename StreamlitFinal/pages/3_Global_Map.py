@@ -53,6 +53,13 @@ df["Avg_Hover"] = df.apply(
 # Display third map (centered full width)
 st.markdown("<h3 style='text-align: center;'>📊 Average Tariff Rate Map</h3>", unsafe_allow_html=True)
 
+st.markdown(
+    """
+This interactive map will help you better understand the aforementioned average effective U.S. tariff rate (27% globally) on a country-by-country basis. It’s a hover map: simply move your mouse over any country to see the average effective tariff rate that the United States has imposed on that nation.
+
+Please note that this map reflects **average **effective tariff rates of each country. This is important because, during the Trump administration's second term, tariffs were frequently adjusted—some were increased, then quickly withdrawn, as shown in the tariff timeline on the previous page. As a result, rather than displaying a real-time tariff rate (which may differ at this exact moment), the map presents an average rate to give a more stable and meaningful view of U.S. trade policy over time.
+    """) 
+
 fig_avg = px.choropleth(
     df,
     locations="Country",
