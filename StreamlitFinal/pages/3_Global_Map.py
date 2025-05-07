@@ -50,7 +50,7 @@ df["Avg_Hover"] = df.apply(
     axis=1
 )
 
-# Display third map (centered full width)
+# making map with averages
 st.markdown("<h3 style='text-align: center;'>📊 Average Tariff Rate Map</h3>", unsafe_allow_html=True)
 
 st.markdown(
@@ -59,7 +59,7 @@ This interactive map will help you better understand the aforementioned average 
 
 Please note that this map reflects **average** effective tariff rates of each country. This is important because, during the Trump administration's second term, tariffs were frequently adjusted—some were increased, then quickly withdrawn, as shown in the tariff timeline on the previous page. As a result, rather than displaying a real-time tariff rate (which may differ at this exact moment), the map presents an average rate to give a more stable and meaningful view of U.S. trade policy over time.
     """) 
-
+# explaining how to use tool 
 st.markdown(
     "**How to Use This Tool**"
 )
@@ -76,7 +76,7 @@ This tool is designed to help users **quickly understand** which regions were mo
             
             """)
 
-
+#creating map
 fig_avg = px.choropleth(
     df,
     locations="Country",
@@ -87,7 +87,7 @@ fig_avg = px.choropleth(
     width=1000,
     height=600
 )
-
+#adding hover effect
 fig_avg.update_traces(
     hovertemplate="<b>%{customdata[0]}</b><br><br>%{customdata[1]}<extra></extra>",
     customdata=df[["Country", "Avg_Hover"]]
@@ -210,7 +210,7 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
               """,
               unsafe_allow_html=True
         )
-        
+        # explaining insights from map
         st.markdown(
              """
              ### 🔍 What’s Really Going On?
