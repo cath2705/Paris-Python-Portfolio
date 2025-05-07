@@ -1,10 +1,16 @@
 ## About my Portfolio
  
-This repository will serve as a centralized location for all my projects in Elements of Computing II (Spring 2025). I plan to structure my work into separate folders for each indiviual project. My goal is to ensure clarity and accessibility for both myself and others reviewing my work.
+This repository serves as a centralized collection of all my projects from Elements of Computing II (Spring 2025). Each project is organized in its own folder for clarity and ease of navigation. My goal is to make my work accessible and well-documented—for both future reference and for others reviewing my portfolio.
 
-—whether it's exploratory data analysis (EDA), data visualization, or model development. 
+Throughout the semester, I made **four major updates** to this GitHub, each tied to a key milestone in the course. In this README, you’ll find a brief **overview of each project, the primary skills** demonstrated, and **direct links** to each folder and its corresponding Streamlit app (when applicable).
 
-Throughout this semester, I made four major updates to my GitHub, each corresponding to key milestones in the course. These updates will showcase my progress, including refining analytical techniques, improving visualization methods, and iterating on models. Additionally, I may include smaller updates such as code optimizations, documentation enhancements, or reflections on my learning process.
+As you explore this portfolio, you’ll see a clear progression in both my technical skills and design thinking—from my **early Penguins Data Explorer** to my final, **more complex Trump Tariff Tracker.** Over time, I became increasingly comfortable with:
+- UX/UI design in Streamlit
+- Interactive data visualizations using Plotly and pandas
+- Backend logic to support dynamic filtering, rule-building, and user inputs
+- Communicating technical concepts through accessible, educational tools
+
+Each project reflects a step forward in my ability to merge code with **communication, data with design, and functionality with storytelling.**
 _______________________________________________________________________________________________________________________________________________
 ## Projects
 ## Final Streamlit App: Trump Tariff App
