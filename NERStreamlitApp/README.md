@@ -92,14 +92,14 @@ Here is an explaination of some of the main features I used to make my app inter
 - Lottie Animations are a way for me to implement fun animations on to my website pages
 - Streamlit doesn’t natively support Lottie JSON animations, so I imported the streamlit-lottie package and fetching animation JSON from a public URL using requests.get().
 
-| <code><img height="100" src="patterns/expander1.png"></code> | 
+| <code><img height="300" src="patterns/lottie1.png"></code> | 
 |:--:| 
-| *What the expander widget feature looks like on the streamlit app* |
+| *What the Lottie Animation feature looks like on the streamlit app* |
 <br />
 
-| <code><img height="100" src="patterns/expander2.png"></code> | 
+| <code><img height="300" src="patterns/lottie2.png"></code> | 
 |:--:| 
-| *Code used to create expander widget* |
+| *Code used to create Lottie Animation* |
 <br />
 
 4. spaCy’s EntityRuler for Custom Patterns
