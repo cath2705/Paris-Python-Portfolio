@@ -16,7 +16,7 @@ st.markdown(
 #add text
 st.markdown(
     """
-    President Trump has stated that the goal of these tariffs is to put pressure on foreign governments and producers that, according to the administration, were engaging in unfair trade practices or flooding U.S. markets with underpriced goods. By imposing additional costs on these imports, the hope was to incentivize fairer trade relationships and create a more level playing field for American businesses.
+    President Trump has stated that the goal of these tariffs is to **put pressure on foreign governments and producers** that, according to the administration, were engaging in **unfair trade practices** or **flooding U.S. markets with underpriced goods.** By imposing additional costs on these imports, the hope was to **incentivize fairer trade relationships** and create a more level playing field for American businesses.
     """
 )
 
@@ -26,9 +26,9 @@ st.image("StreamlitFinal/images/Tarriff_Man1.png", caption="Source: AXIOS")
 #add text
 st.markdown(
     """
-    While tariffs are imposed on foreign goods, the cost is often passed on to U.S. importers, retailers, and ultimately, consumers. Because many products sold in the U.S. still come from abroad, American households often experienced higher prices on items ranging from electronics and appliances to clothing and raw materials.
+    While tariffs are imposed on foreign goods, the cost is often passed on to U.S. importers, retailers, and ultimately, **consumers.** Because many products sold in the U.S. still come from abroad, American households often experienced higher prices on items ranging from electronics and appliances to clothing and raw materials.
 
-    In some cases, even domestic producers raised their prices, reflecting reduced competition or increased costs for parts and materials they also import. For example, tariffs on steel affected not only foreign producers but also U.S. companies that rely on steel to manufacture goods.
+    In some cases, **even domestic producers raised their prices,** reflecting reduced competition or increased costs for parts and materials they also import. For example, tariffs on steel affected not only foreign producers but also U.S. companies that rely on steel to manufacture goods.
    
       ---         
 
