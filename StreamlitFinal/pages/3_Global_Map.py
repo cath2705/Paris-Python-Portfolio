@@ -40,6 +40,51 @@ This historic increase was fueled by proposed tariffs on imports from **57 count
 ---
                         """)
 
+
+# Create average column
+df["Average_Tariff_Rate"] = (df["Old_Tariff_Rate"] + df["New_Tarriff_Rate"]) / 2
+
+# Custom hover text for average
+df["Avg_Hover"] = df.apply(
+    lambda row: f"The average U.S. tariff rate for {row['Country']} is {row['Average_Tariff_Rate']:.1f}%.",
+    axis=1
+)
+
+# Display third map (centered full width)
+st.markdown("---")
+st.subheader("📊 Average Tariff Rate Map")
+
+fig_avg = px.choropleth(
+    df,
+    locations="Country",
+    locationmode="country names",
+    color="Average_Tariff_Rate",
+    color_continuous_scale="RdBu",  # Red-Blue diverging scale
+    title="Average Tariff Rate by Country",
+    width=1000,
+    height=600
+)
+
+fig_avg.update_traces(
+    hovertemplate="<b>%{customdata[0]}</b><br><br>%{customdata[1]}<extra></extra>",
+    customdata=df[["Country", "Avg_Hover"]]
+)
+
+fig_avg.update_coloraxes(colorbar_title="Average Tariff Rate")
+
+st.plotly_chart(fig_avg)
+
+
+
+
+
+
+
+
+
+
+
+
 st.markdown(
     "<h3 style='text-align: center;'>How to Use This Tool</h3>",
     unsafe_allow_html=True
