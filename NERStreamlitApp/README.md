@@ -9,6 +9,8 @@
 
 ### 📌 Project Overview
 This Streamlit web application is a fully interactive, educational platform designed to help users understand and engage with Named Entity Recognition (NER), a core task in Natural Language Processing (NLP). The app introduces the concept of NER, explains how it works, walks users through the steps machines take to identify entities in text, and even allows users to explore NER hands-on using a custom-built entity recognition tool powered by spaCy.
+
+Educational Design Philosophy: This app is built with approachability and interactivity in mind so that non-technical users can still follow explanations and build intuition with examples, visuals, and play. 
 _________________________________________________________________________________________________________________________________________________________________________________
 ## Goals: 
 The app is designed to meet the following educational and functional goals:
@@ -128,33 +130,18 @@ Here is an explanation of some of the main features I used to make my app intera
 |:--:| 
 | *Code used to create Live Entity Display* |
 <br />
-_______________________________________________________________________________________________________________________________________________
-Technical Stack
-- Language: Python 3.10+
-- Framework: Streamlit
-- NLP Library: spaCy
 
-Additional Modules:
-- requests (for loading Lottie animations)
-- json (to handle user-created rule sets)
-- os (file management)
-_______________________________________________________________________________________________________________________________________________
-Educational Design Philosophy
+_________________________________________________________________________________________________________________________________________________________________________________
 
-This app is built with approachability and interactivity in mind:
-- Non-technical users can still follow explanations
-- Learners build intuition with examples, visuals, and play
-- Developers can explore advanced customization through spaCy's EntityRuler
+<br />
 
-By blending text analysis with user-driven control, this app bridges the gap between abstract NLP concepts and hands-on understanding.
-_______________________________________________________________________________________________________________________________________________
 ## 🧰 Skills Demonstrated
 This project highlights my ability to:
 - 🔧 Build interactive apps with Streamlit
 - 🧪 Apply pandas for real-time data filtering and display
 - 💻 Write clean, modular Python code
 - 🎨 Integrate playful UX features (e.g. success messages, emojis, surprise facts)
-- 📊 Bridge data science and interface design for engaging user experiences
+-  📊 Bridge data science and interface design for engaging user experiences
 <br />
 
 ## 🚀 How to Run This Project
@@ -173,8 +160,23 @@ Install dependencies:
 
 Run the app:
 - streamlit run Welcome.py
-_______________________________________________________________________________________________________________________________________________
+
+<br />
+
+🧑‍💻 Technical Stack
+- Language: Python 3.10+
+- Framework: Streamlit 1.37.1
+- NLP Library: spaCy 3.8.5
+- Pretrained Model: en_core_web_sm (v3.8.0)
+- streamlit-lottie – for rendering JSON-based Lottie animations
+- requests – to fetch external animation files
+- Pillow – required by Streamlit to handle image processing
+- json – to load and save custom user rules
+- os – for file handling and directory management
+______________________________________________________________________________________________________________
+
+<br />
+
 ### Enjoy Learning about Named Entity Recognition!
-<code><img height="500" src="image_penguin/pen-sc10.png"></code>
-_______________________________________________________________________________________________________________________________________________
+st.image("https://www.labellerr.com/blog/content/images/2024/01/ner-1.webp")
 
