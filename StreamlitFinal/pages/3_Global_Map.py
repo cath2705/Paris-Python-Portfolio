@@ -204,7 +204,7 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
              A clear pattern emerges when comparing the pre- and post-April 9th tariffs:
              The new tariff map shows a dramatic reduction or elimination of tariffs for most countries, with China standing out as the sole nation facing a substantial increase. China’s new rate is 125%, represented by the darkest blue. This suggests a deliberate and strategic pivot, concentrating tariff pressure almost exclusively on China while easing trade restrictions elsewhere. 
               
-                ---   
+            ---   
                 
             Even more striking is the **post-freeze uniformity** — nearly **every country except China now faces a flat 10% tariff**. This reset is not based on any specific trade behavior like tariffs, VATs, or digital services taxes. Instead, the new rates are **derived from a formula**:  
             > **Trade deficit ÷ U.S. imports**, with a **minimum tariff of 10%.**
@@ -229,9 +229,9 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
         st.markdown(
              """
              <div style='text-align: center;'>
-             <a href="https://taxfoundation.org/blog/trump-reciprocal-tariffs-calculations/" target="_blank">
-             <u>Read More from Tax Foundation </u>
-             </a>
+                <a href="https://taxfoundation.org/blog/trump-reciprocal-tariffs-calculations/" target="_blank">
+                <u>Read More from Tax Foundation </u>
+                </a>
              </div>
         """,
         unsafe_allow_html=True
