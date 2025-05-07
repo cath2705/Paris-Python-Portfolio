@@ -18,7 +18,7 @@ st.markdown("# What is Named Entity Recognition (NER)?")
 # Image outside of st.markdown, and using use_container_width
 st.image(
     "https://www.labellerr.com/blog/content/images/2024/01/ner-1.webp",
-    use_container_width=True
+    #use_container_width=True
 )
 
 # Follow with markdown block to explain more of how it works
@@ -45,7 +45,9 @@ st.markdown(
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("https://cdn.botpenguin.com/assets/website/few_nerd_1_ae19b90a78.webp", use_container_width=True, caption="Example of NER in Action")
+    st.image("https://cdn.botpenguin.com/assets/website/few_nerd_1_ae19b90a78.webp", 
+             #use_container_width=True, 
+             caption="Example of NER in Action")
 
 with col2:
     st.markdown(
