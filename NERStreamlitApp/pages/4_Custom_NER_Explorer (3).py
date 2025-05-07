@@ -174,14 +174,14 @@ st.write("""
 col1, col2 = st.columns(2)
 
 with col1:
-    image_path = "NERStreamlitApp/pattern/Screenshot2.png"
+    image_path = "NERStreamlitApp/patterns/Screenshot2.png"
     image = Image.open(image_path)
     st.image(image, caption="This rule will search for the word **apple** in the text. Every time it finds **apple** (ignoring case differences), it will tag it as a fruit. ", 
              #use_container_width=True
             )
 
 with col2:
-    image_path = "NERStreamlitApp/pattern/Screenshot3.png"
+    image_path = "NERStreamlitApp/patterns/Screenshot3.png"
     image = Image.open(image_path)
     st.image(image, caption="This rule will look for the word **tesla** in the text. Every match will be classified under the CAR label, signifying that it represents a car brand ", 
              #use_container_width=True
@@ -191,7 +191,7 @@ st.write("""
          ### Now Let's Re-Run the App!
         """)
 
-image_path = "NERStreamlitApp/pattern/Screenshot4.png"
+image_path = "NERStreamlitApp/patterns/Screenshot4.png"
 image = Image.open(image_path)
 st.image(image, caption=" Now the app correctly identifies **apple** as a fruit and **tesla** as a car ", 
          #use_container_width=True
