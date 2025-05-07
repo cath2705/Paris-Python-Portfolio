@@ -78,14 +78,14 @@ Here is an explaination of some of the main features I used to make my app inter
 - Used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
 - This structure uses Streamlit's context manager (with) to create collapsible content regions.
 
-| <code><img height="300" src="patterns/quiz.png"></code> | 
+| <code><img height="100" src="patterns/expander1.png"></code> | 
 |:--:| 
-| *What the interactive quiz feature looks like on the streamlit app* |
+| *What the expander widget feature looks like on the streamlit app* |
 <br />
 
-| <code><img height="400" src="patterns/quiz2.png"></code> | 
+| <code><img height="100" src="patterns/expander2.png"></code> | 
 |:--:| 
-| *Code used to create interactive quiz* |
+| *Code used to create expander widget* |
 <br />
 
 
