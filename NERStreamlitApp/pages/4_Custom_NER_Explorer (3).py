@@ -137,30 +137,26 @@ st.write("""
 
 st.markdown("---")
 
-# digression into seperate example
-st.write("""
-  ### ✋ Quick digression!
-  Observe the how the accuracy improves as custom rules are added
-    """)
 
-# including images (using columns so they can be next to each other)
-colx, coly = st.columns(2)
+with st.expander("✋ Quick digression: See how custom rules improve accuracy"):
+    st.write("Observe how the accuracy improves as custom rules are added.")
 
-with colx:
-    st.image(
-    "https://dataknowsall.com/hs-fs/hubfs/image-png-1.png?width=1600&height=920&name=image-png-1.png", caption="Before adding custom rules ", 
-        #use_container_width=True
-    )
+    # Displaying images side by side
+    colx, coly = st.columns(2)
 
-with coly:
-    st.image(
-    "https://dataknowsall.com/hs-fs/hubfs/image-png-2.png?width=1600&height=1000&name=image-png-2.png", caption="After adding custom rules ", 
-        #use_container_width=True
-    )
- 
-st.write("""
-         Notice how much more accurate the second version is. 
-         """)
+    with colx:
+        st.image(
+            "https://dataknowsall.com/hs-fs/hubfs/image-png-1.png?width=1600&height=920&name=image-png-1.png",
+            caption="Before adding custom rules"
+        )
+
+    with coly:
+        st.image(
+            "https://dataknowsall.com/hs-fs/hubfs/image-png-2.png?width=1600&height=1000&name=image-png-2.png",
+            caption="After adding custom rules"
+        )
+
+    st.write("Notice how much more accurate the second version is.")
 
 st.markdown("---")
 
