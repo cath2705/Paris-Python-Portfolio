@@ -67,39 +67,35 @@ We automatically apply the correct tariff percentage based on the country of ori
 No need to research tariff rates or do any math — this tool does it all for you.
 """)
 
-
-# Load data once
+# Load data
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
-# User inputs
-product = st.text_input("Enter product name:")
-country = st.selectbox("Select manufacturing country:", df["Country"].unique())
-price = st.number_input("Original product price ($):", min_value=0.0)
+st.title("Tariff Price Calculators")
 
-# Display prices if inputs are valid
-if product and country and price:
-    old_tariff = df.loc[df["Country"] == country, "Old_Tariff_Rate"].values[0]
-    new_tariff = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
+# --- New Tariff Rate Calculator ---
+st.header("📈 New Tariff Rate Calculator")
 
-    old_price = price * (1 + old_tariff / 100)
-    new_price = price * (1 + new_tariff / 100)
+product_new = st.text_input("Enter product name (new tariff):", key="product_new")
+country_new = st.selectbox("Select manufacturing country (new tariff):", df["Country"].unique(), key="country_new")
+price_new = st.number_input("Original product price ($) (new tariff):", min_value=0.0, key="price_new")
 
-    st.markdown(f"### {product} made in {country}")
-    st.success(f"💸 **Old Tariff Price:** ${old_price:.2f} (at {old_tariff}% tariff)")
-    st.success(f"📈 **New Tariff Price:** ${new_price:.2f} (at {new_tariff}% tariff)")
+if product_new and country_new and price_new:
+    new_tariff = df.loc[df["Country"] == country_new, "New_Tarriff_Rate"].values[0]
+    new_price = price_new * (1 + new_tariff / 100)
+    st.success(f"{product_new} made in {country_new} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
 
-# Source
-st.markdown(
-    """
-    <div style='text-align: center; margin-top: 20px;'>
-        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
-            <u>Source of Tool Percentages</u>
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# --- Old Tariff Rate Calculator ---
+st.header("🕰️ Old Tariff Rate Calculator")
 
+product_old = st.text_input("Enter product name (old tariff):", key="product_old")
+country_old = st.selectbox("Select manufacturing country (old tariff):", df["Country"].unique(), key="country_old")
+price_old = st.number_input("Original product price ($) (old tariff):", min_value=0.0, key="price_old")
+
+if product_old and country_old and price_old:
+    old_tariff = df.loc[df["Country"] == country_old, "Old_Tariff_Rate"].values[0]
+    old_price = price_old * (1 + old_tariff / 100)
+    st.success(f"{product_old} made in {country_old} used to cost **${old_price:.2f}** due to a {old_tariff}% tariff.")
+    
 ## LOLLL might be the same thing 
 st.markdown(
     """
