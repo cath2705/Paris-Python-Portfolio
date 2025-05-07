@@ -134,14 +134,14 @@ Here is an explanation of some of the main features I used to make my app intera
 - The app uses spaCy’s displacy.render() to visually display named entities in the analyzed text using color-coded highlights.
 - This enhances user understanding by showing results in an intuitive, readable format.
 
-| <code><img height="100" src="patterns/expander1.png"></code> | 
+| <code><img height="100" src="patterns/live.png"></code> | 
 |:--:| 
-| *What the expander widget feature looks like on the streamlit app* |
+| *What the Live Entity Display feature looks like on the streamlit app* |
 <br />
 
-| <code><img height="100" src="patterns/expander2.png"></code> | 
+| <code><img height="100" src="patterns/live2.png"></code> | 
 |:--:| 
-| *Code used to create expander widget* |
+| *Code used to create Live Entity Display* |
 <br />
 
 _______________________________________________________________________________________________________________________________________________
