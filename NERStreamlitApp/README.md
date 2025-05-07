@@ -9,6 +9,8 @@
 
 ### 📌 Project Overview
 This Streamlit web application is a fully interactive, educational platform designed to help users understand and engage with Named Entity Recognition (NER), a core task in Natural Language Processing (NLP). The app introduces the concept of NER, explains how it works, walks users through the steps machines take to identify entities in text, and even allows users to explore NER hands-on using a custom-built entity recognition tool powered by spaCy.
+
+Educational Design Philosophy: This app is built with approachability and interactivity in mind so that non-technical users can still follow explanations and build intuition with examples, visuals, and play. 
 _________________________________________________________________________________________________________________________________________________________________________________
 ## Goals: 
 The app is designed to meet the following educational and functional goals:
@@ -23,25 +25,25 @@ ________________________________________________________________________________
 ## Overview of the App's Layout 
 The app is composed of 4 pages that each serve a different informational purpose. 
 Here is an overview of the website structure:
+<code><img height="200" src="patterns/roadmap.png"></code> 
 
 Here is a description of what each page does: 
 
 1. "Welcome" Page:
 - Introduces the concept of NER in simple language.
-- Combines markdown, emojis, and visuals for engaging storytelling.
 - Displays images and examples (e.g., Barack Obama being tagged as a PERSON).
-- Includes an interactive quiz to let users guess what constitutes a named entity.
 - Uses Streamlit Expander widgets to deliver optional deeper learning moments.
 
 2. "Basic NER" Page:
 - Loads a base spaCy model (en_core_web_sm).
 - Allows user to: Upload a .txt file or input custom text
-- Text is analyzed using pre-defined rule patterns from a local JSON file.
+- Text is analyzed using pre-defined rule patterns
 - Uses a custom-built highlight_entities function for colorful entity tagging.
 - Prompts users to reflect on what the model got right/wrong (including with ambiguity).
 - Features Lottie animations to maintain engagement.
 
 3. "How Ner Works" Page:
+- Includes an interactive quiz to let users guess what constitutes a named entity.
 - Describes the NER pipeline in five intuitive steps: Tokenization, Entity Identification, Entity Classification, Contextual Analysis, Post-Processing
 - Embeds real-world illustrations and text to demonstrate complex topics.
 - Discusses ambiguity and context dependency, showcasing challenges in NLP.
@@ -129,30 +131,24 @@ Here is an explanation of some of the main features I used to make my app intera
 | *Code used to create Live Entity Display* |
 <br />
 
-_______________________________________________________________________________________________________________________________________________
-Technical Stack
-- Language: Python 3.10+
-- Framework: Streamlit
-- NLP Library: spaCy
+_________________________________________________________________________________________________________________________________________________________________________________
 
-Additional Modules:
-- requests (for loading Lottie animations)
-- json (to handle user-created rule sets)
-- os (file management)
-_______________________________________________________________________________________________________________________________________________
-Educational Design Philosophy
+<br />
 
-This app is built with approachability and interactivity in mind:
-- Non-technical users can still follow explanations
-- Learners build intuition with examples, visuals, and play
-- Developers can explore advanced customization through spaCy's EntityRuler
+## 🧰 Skills Demonstrated
+This project highlights my ability to:
+- 🔧 Build interactive apps with Streamlit
+- 🧪 Apply pandas for real-time data filtering and display
+- 💻 Write clean, modular Python code
+- 🎨 Integrate playful UX features (e.g. success messages, emojis, surprise facts)
+-  📊 Bridge data science and interface design for engaging user experiences
+<br />
 
-By blending text analysis with user-driven control, this app bridges the gap between abstract NLP concepts and hands-on understanding.
-_______________________________________________________________________________________________________________________________________________
 ## 🚀 How to Run This Project
+If you'd like to run this Streamlit app yourself,
 
 Clone the repository:
-- git clone https://github.com/yourusername/NERStreamlitApp.git
+- git clone https://github.com/cath2705/Paris-Python-Portfolio.git 
 - cd NERStreamlitApp
 
 Create a virtual environment and activate it:
@@ -164,8 +160,23 @@ Install dependencies:
 
 Run the app:
 - streamlit run Welcome.py
-_______________________________________________________________________________________________________________________________________________
-## Credits
 
-Developed by Catherine for an educational NLP visualization project at the University of Notre Dame.
-Inspired by Streamlit’s interactive tools and spaCy’s flexible NLP pipelines.
+<br />
+
+🧑‍💻 Technical Stack
+- Language: Python 3.10+
+- Framework: Streamlit 1.37.1
+- NLP Library: spaCy 3.8.5
+- Pretrained Model: en_core_web_sm (v3.8.0)
+- streamlit-lottie – for rendering JSON-based Lottie animations
+- requests – to fetch external animation files
+- Pillow – required by Streamlit to handle image processing
+- json – to load and save custom user rules
+- os – for file handling and directory management
+______________________________________________________________________________________________________________
+
+<br />
+
+### Enjoy Learning about Named Entity Recognition!
+st.image("https://www.labellerr.com/blog/content/images/2024/01/ner-1.webp")
+
