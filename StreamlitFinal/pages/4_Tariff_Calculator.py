@@ -70,6 +70,10 @@ No need to research tariff rates or do any math — this tool does it all for yo
 # Load data once
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
+# Initialize outside values for comparison
+old_price = None
+new_price = None
+
 # Create two columns
 col1, col2 = st.columns(2)
 
@@ -97,10 +101,10 @@ with col2:
 
 # --- Price Comparison (Bottom) ---
 if (
-    "country_old" in locals() and
-    "country_new" in locals() and
+    old_price is not None and
+    new_price is not None and
     price_old > 0 and
-    price_new > 0 and
+    price > 0 and
     country_old == country_new
 ):
     price_diff = old_price - new_price
@@ -112,7 +116,7 @@ if (
     - **Old Tariff Price:** ${old_price:.2f}  
     - **New Tariff Price:** ${new_price:.2f}  
     - **Price Difference:** ${price_diff:.2f}  
-    - **Change:** {percent_change:.2f}% {"decrease" if percent_change > 0 else "increase"}
+    - **Change:** {abs(percent_change):.2f}% {"decrease" if percent_change > 0 else "increase"}
     """)
 
 
