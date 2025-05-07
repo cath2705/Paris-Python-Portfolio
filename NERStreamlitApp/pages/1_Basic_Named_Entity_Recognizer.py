@@ -1,7 +1,7 @@
 import streamlit as st
 import spacy
 from spacy.pipeline import EntityRuler
-from utils import load_patterns, highlight_entities
+from patterns.utils import load_patterns, highlight_entities
 import os 
 
 # Set up the page
