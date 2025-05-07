@@ -428,21 +428,6 @@ data = {
       "start_date": {
         "year": 2025,
         "month": 3,
-        "day": 9
-      },
-      "text": {
-        "headline": "90 Day Suspension of Higher Tariffs",
-        "text": "President Trump’s higher “reciprocal” rates go into effect, hiking taxes on imports from dozens of countries just after midnight. But hours later, the administration suspended the implementation of the higher tariffs (above the universal 10%) for 90 days for all countries except China (whose tariffs are now 125%), following concerns over potential economic repercussions."
-      },
-      "media": {
-                "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/65170d71-aab3-4988-96c3-97d2d0b18e4e/32721817-8fe9-4741-b3fe-2b7afa583d23/1280x720/match/image.jpg?pubId=854081161001",
-                "credit": "FOX News"
-            }
-    },
-    {
-      "start_date": {
-        "year": 2025,
-        "month": 3,
         "day": 10
       },
       "text": {
@@ -500,6 +485,21 @@ data = {
       "media": {
                 "url": "https://d3i6fh83elv35t.cloudfront.net/static/2023/01/2023-01-24T163623Z_1490130142_RC23LT9FF93F_RTRMADP_3_GLOBAL-ECONOMY-PMI-1200x800.jpg",
                 "credit": "PBS News"
+            }
+    },
+    {
+      "start_date": {
+        "year": 2025,
+        "month": 4,
+        "day": 9
+      },
+      "text": {
+        "headline": "90 Day Suspension of Higher Tariffs",
+        "text": "President Trump’s higher “reciprocal” rates go into effect, hiking taxes on imports from dozens of countries just after midnight. But hours later, the administration suspended the implementation of the higher tariffs (above the universal 10%) for 90 days for all countries except China (whose tariffs are now 125%), following concerns over potential economic repercussions."
+      },
+      "media": {
+                "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/65170d71-aab3-4988-96c3-97d2d0b18e4e/32721817-8fe9-4741-b3fe-2b7afa583d23/1280x720/match/image.jpg?pubId=854081161001",
+                "credit": "FOX News"
             }
     },
     {
