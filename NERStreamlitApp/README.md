@@ -128,7 +128,6 @@ Here is an explanation of some of the main features I used to make my app intera
 |:--:| 
 | *Code used to create Live Entity Display* |
 <br />
-
 _______________________________________________________________________________________________________________________________________________
 Technical Stack
 - Language: Python 3.10+
@@ -149,10 +148,20 @@ This app is built with approachability and interactivity in mind:
 
 By blending text analysis with user-driven control, this app bridges the gap between abstract NLP concepts and hands-on understanding.
 _______________________________________________________________________________________________________________________________________________
+## 🧰 Skills Demonstrated
+This project highlights my ability to:
+- 🔧 Build interactive apps with Streamlit
+- 🧪 Apply pandas for real-time data filtering and display
+- 💻 Write clean, modular Python code
+- 🎨 Integrate playful UX features (e.g. success messages, emojis, surprise facts)
+- 📊 Bridge data science and interface design for engaging user experiences
+<br />
+
 ## 🚀 How to Run This Project
+If you'd like to run this Streamlit app yourself,
 
 Clone the repository:
-- git clone https://github.com/yourusername/NERStreamlitApp.git
+- git clone https://github.com/cath2705/Paris-Python-Portfolio.git 
 - cd NERStreamlitApp
 
 Create a virtual environment and activate it:
@@ -165,7 +174,7 @@ Install dependencies:
 Run the app:
 - streamlit run Welcome.py
 _______________________________________________________________________________________________________________________________________________
-## Credits
+### Enjoy Learning about Named Entity Recognition!
+<code><img height="500" src="image_penguin/pen-sc10.png"></code>
+_______________________________________________________________________________________________________________________________________________
 
-Developed by Catherine for an educational NLP visualization project at the University of Notre Dame.
-Inspired by Streamlit’s interactive tools and spaCy’s flexible NLP pipelines.
