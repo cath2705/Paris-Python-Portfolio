@@ -104,7 +104,8 @@ with st.expander("# Click to Find Out 👉"):
     st.markdown("")
 
     st.image(
-    "/SC2.png", caption=" Here is a list of what SpaCy Named Entity Recognition labels mean ", use_container_width=True
+    "/SC2.png", caption=" Here is a list of what SpaCy Named Entity Recognition labels mean ", 
+        #use_container_width=True
     )
 
 
@@ -122,7 +123,9 @@ from PIL import Image
 
 image_path = "/Users/catherineparis/Documents/GitHub/Paris-Python-Portfolio/NERStreamlitApp/Screenshot1.png"
 image = Image.open(image_path)
-st.image(image, caption="First, I imputed the sentence into the Custom NER Explorer app with no added entity labels or pattern text, to see what that output would look like. As you can see, the app (incorrectly) recognized Tesla as NORP (NORP is SpaCy’s classification for Nationalities or religious or political groups) ", use_container_width=True)
+st.image(image, caption="First, I imputed the sentence into the Custom NER Explorer app with no added entity labels or pattern text, to see what that output would look like. As you can see, the app (incorrectly) recognized Tesla as NORP (NORP is SpaCy’s classification for Nationalities or religious or political groups) ", 
+         #use_container_width=True
+        )
 
 # adding text
 st.write("""
@@ -145,12 +148,14 @@ colx, coly = st.columns(2)
 
 with colx:
     st.image(
-    "https://dataknowsall.com/hs-fs/hubfs/image-png-1.png?width=1600&height=920&name=image-png-1.png", caption="Before adding custom rules ", use_container_width=True
+    "https://dataknowsall.com/hs-fs/hubfs/image-png-1.png?width=1600&height=920&name=image-png-1.png", caption="Before adding custom rules ", 
+        #use_container_width=True
     )
 
 with coly:
     st.image(
-    "https://dataknowsall.com/hs-fs/hubfs/image-png-2.png?width=1600&height=1000&name=image-png-2.png", caption="After adding custom rules ", use_container_width=True
+    "https://dataknowsall.com/hs-fs/hubfs/image-png-2.png?width=1600&height=1000&name=image-png-2.png", caption="After adding custom rules ", 
+        #use_container_width=True
     )
  
 st.write("""
@@ -171,12 +176,16 @@ col1, col2 = st.columns(2)
 with col1:
     image_path = "/Users/catherineparis/Documents/GitHub/Paris-Python-Portfolio/NERStreamlitApp/Screenshot2.png"
     image = Image.open(image_path)
-    st.image(image, caption="This rule will search for the word **apple** in the text. Every time it finds **apple** (ignoring case differences), it will tag it as a fruit. ", use_container_width=True)
+    st.image(image, caption="This rule will search for the word **apple** in the text. Every time it finds **apple** (ignoring case differences), it will tag it as a fruit. ", 
+             #use_container_width=True
+            )
 
 with col2:
     image_path = "/Users/catherineparis/Documents/GitHub/Paris-Python-Portfolio/NERStreamlitApp/Screenshot3.png"
     image = Image.open(image_path)
-    st.image(image, caption="This rule will look for the word **tesla** in the text. Every match will be classified under the CAR label, signifying that it represents a car brand ", use_container_width=True)
+    st.image(image, caption="This rule will look for the word **tesla** in the text. Every match will be classified under the CAR label, signifying that it represents a car brand ", 
+             #use_container_width=True
+            )
 
 st.write("""
          ### Now Let's Re-Run the App!
@@ -184,7 +193,9 @@ st.write("""
 
 image_path = "/Users/catherineparis/Documents/GitHub/Paris-Python-Portfolio/NERStreamlitApp/Screenshot4.png"
 image = Image.open(image_path)
-st.image(image, caption=" Now the app correctly identifies **apple** as a fruit and **tesla** as a car ", use_container_width=True)
+st.image(image, caption=" Now the app correctly identifies **apple** as a fruit and **tesla** as a car ", 
+         #use_container_width=True
+        )
 
 st.write("""
         ## Now Try It Yourself!👆😃
