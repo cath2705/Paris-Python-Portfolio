@@ -24,12 +24,6 @@ ________________________________________________________________________________
 The app is composed of 4 pages that each serve a different informational purpose. 
 Here is an overview of the website structure:
 
-├── Welcome.py                
-├── pages/
-│   ├── 1_Basic_NER.py
-│   ├── 2_How_NER_Works.py
-│   └── 3_Custom_NER_Explorer.py
-
 Here is a description of what each page does: 
 
 1. "Welcome" Page:
