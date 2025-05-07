@@ -5,6 +5,33 @@ This repository will serve as a centralized location for all my projects in Elem
 Looking ahead at this semester, I anticipate making four major updates to my GitHub, each corresponding to key milestones in the course. These updates will showcase my progress, including refining analytical techniques, improving visualization methods, and iterating on models. Additionally, I may include smaller updates such as code optimizations, documentation enhancements, or reflections on my learning process.
 _______________________________________________________________________________________________________________________________________________
 ## Projects
+## 🔍 Custom Named Entity Recognition (NER) Streamlit App!
+🔗 [View NER Streamlit App Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/NERStreamlitApp)
+
+### 📄 Project Description
+This project focuses on Named Entity Recognition (NER) — a foundational Natural Language Processing (NLP) task — and presents it through an interactive, educational Streamlit app built from scratch using spaCy. The goal of the app is to help users intuitively understand how NER works, experiment with entity recognition on their own text, and even create custom rules for tagging new entity types.
+
+## This project specifically:
+- Introduces the core concepts of NER on a Welcome Page using markdown, images, and st.expander() widgets for progressive disclosure.
+- Uses st.columns() to create clean side-by-side layouts that pair explanations with relevant visuals or examples.
+- Implements an interactive quiz using st.radio() and conditional if/else logic to test users’ intuition on what qualifies as an entity.
+- Walks through how machines handle entity detection on a “How This Works” page, explaining NLP processes like tokenization and contextual analysis in plain English with visual examples.
+- Uses spaCy’s EntityRuler and a JSON-based rule set to let users define their own custom entities on the Custom NER Explorer page.
+- Reads and applies those custom rules
+- Displays tagged text using a highlight_entities() function that visually differentiates each entity type.
+- Includes a Lottie animation on the Basic Recognizer page using the streamlit-lottie package, with JSON animations fetched via a helper function using requests.get().
+
+## 💼 This project highlights my ability to:
+- Build multi-page Streamlit applications with modular, readable code.
+- Combine frontend interactivity (st.radio, st.expander, st.columns) with backend NLP pipelines powered by spaCy.
+- Read in and apply user-defined JSON patterns for custom NER tasks.
+- Explain complex NLP workflows through visuals and storytelling (e.g., how ambiguity and context affect classification).
+- Use web animations (Lottie) to enhance UI/UX in an otherwise technical app.
+- Translate technical concepts into interactive learning tools for users without a computer science background.
+
+This app stands out from my other projects by blending creative interface design with real-world NLP functionality, making it a showcase of both my technical fluency and my ability to teach through code.
+
+_______________________________________________________________________________________________________________________________________________
 ## Tidy Data Project!
 🔗 [View the Tidy Data Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/TidyDate-Project-main)
 
@@ -51,28 +78,3 @@ In this project, I used Streamlit to create an interactive data exploration app 
 - Add playful, engaging features to enhance UX
 
 _______________________________________________________________________________________________________________________________________________
-## 🔍 Custom Named Entity Recognition (NER) Streamlit App!
-🔗 [View NER Streamlit App](https://paris-python-portfolio-nerapp.streamlit.app/ )
-
-### 📄 Project Description
-This project focuses on Named Entity Recognition (NER) — a foundational Natural Language Processing (NLP) task — and presents it through an interactive, educational Streamlit app built from scratch using spaCy. The goal of the app is to help users intuitively understand how NER works, experiment with entity recognition on their own text, and even create custom rules for tagging new entity types.
-
-## This project specifically:
-- Introduces the core concepts of NER on a Welcome Page using markdown, images, and st.expander() widgets for progressive disclosure.
-- Uses st.columns() to create clean side-by-side layouts that pair explanations with relevant visuals or examples.
-- Implements an interactive quiz using st.radio() and conditional if/else logic to test users’ intuition on what qualifies as an entity.
-- Walks through how machines handle entity detection on a “How This Works” page, explaining NLP processes like tokenization and contextual analysis in plain English with visual examples.
-- Uses spaCy’s EntityRuler and a JSON-based rule set to let users define their own custom entities on the Custom NER Explorer page.
-- Reads and applies those custom rules
-- Displays tagged text using a highlight_entities() function that visually differentiates each entity type.
-- Includes a Lottie animation on the Basic Recognizer page using the streamlit-lottie package, with JSON animations fetched via a helper function using requests.get().
-
-## 💼 This project highlights my ability to:
-- Build multi-page Streamlit applications with modular, readable code.
-- Combine frontend interactivity (st.radio, st.expander, st.columns) with backend NLP pipelines powered by spaCy.
-- Read in and apply user-defined JSON patterns for custom NER tasks.
-- Explain complex NLP workflows through visuals and storytelling (e.g., how ambiguity and context affect classification).
-- Use web animations (Lottie) to enhance UI/UX in an otherwise technical app.
-- Translate technical concepts into interactive learning tools for users without a computer science background.
-
-This app stands out from my other projects by blending creative interface design with real-world NLP functionality, making it a showcase of both my technical fluency and my ability to teach through code.
