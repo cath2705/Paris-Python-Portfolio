@@ -50,6 +50,7 @@ st.markdown("""
             ### Examples to Investigate
              """)
 
+# to upload a gif 
 from streamlit_lottie import st_lottie
 import requests
 
@@ -63,6 +64,7 @@ lottie_ner = load_lottie_url("https://lottie.host/2210cc4b-6b14-4a54-ad8a-7107b0
 
 st_lottie(lottie_ner, height=300, key="ner")
 
+# new text
 st.markdown("""
             **What happens if you misspell a word?**
             → Try “Gogle” instead of “Google,” or “Applle” instead of “Apple.”
