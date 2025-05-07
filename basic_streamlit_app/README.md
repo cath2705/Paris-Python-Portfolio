@@ -79,7 +79,7 @@ This project highlights my ability to:
 - 📊 Bridge data science and interface design for engaging user experiences
 <br />
 
-## Running This App Locally
+## Running This App
 If you'd like to run this Streamlit app yourself,
 1) clone the repo: 
 git clone https://github.com/cath2705/Paris-Python-Portfolio.git 
