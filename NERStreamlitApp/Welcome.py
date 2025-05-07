@@ -101,6 +101,9 @@ with st.expander("# Click to Find Out"):
         It's one of the **foundational skills** in applied NLP.
         """
     )
+st.markdown("---")
+st.markdown("This website ")
+
 
 # Footer teaser
 st.markdown("---")
