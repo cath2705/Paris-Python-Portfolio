@@ -75,33 +75,46 @@ Here is an explaination of some of the main features I used to make my app inter
 <br />
 
 2. Expander Widgets
-- Used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
+- Expander widgets are used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
 - This structure uses Streamlit's context manager (with) to create collapsible content regions.
 
-| <code><img height="300" src="patterns/quiz.png"></code> | 
+| <code><img height="100" src="patterns/expander1.png"></code> | 
 |:--:| 
-| *What the interactive quiz feature looks like on the streamlit app* |
+| *What the expander widget feature looks like on the streamlit app* |
 <br />
 
-| <code><img height="400" src="patterns/quiz2.png"></code> | 
+| <code><img height="100" src="patterns/expander2.png"></code> | 
 |:--:| 
-| *Code used to create interactive quiz* |
+| *Code used to create expander widget* |
 <br />
 
-
-3. Side-by-side Layouts with st.columns
-- Used across pages to align text explanations with visuals (like diagrams or Lottie).
- <img width="580" alt="Screenshot 2025-04-14 at 10 50 59 PM" src="https://github.com/user-attachments/assets/8f372782-4af3-467f-a4d2-6d4b0185cd69" />
-
-4. Lottie Animations
+3. Lottie Animations
+- Lottie Animations are a way for me to implement fun animations on to my website pages
 - Streamlit doesn’t natively support Lottie JSON animations, so I imported the streamlit-lottie package and fetching animation JSON from a public URL using requests.get().
- <img width="581" alt="Screenshot 2025-04-14 at 10 49 54 PM" src="https://github.com/user-attachments/assets/3b64825d-9abb-4f65-a6c0-aeca05c8c462" />
 
-6. spaCy’s EntityRuler for Custom Patterns
+| <code><img height="100" src="patterns/expander1.png"></code> | 
+|:--:| 
+| *What the expander widget feature looks like on the streamlit app* |
+<br />
+
+| <code><img height="100" src="patterns/expander2.png"></code> | 
+|:--:| 
+| *Code used to create expander widget* |
+<br />
+
+4. spaCy’s EntityRuler for Custom Patterns
 - The Custom NER Explorer page uses spaCy's EntityRuler to let users define custom entity types like "BRAND", "PRODUCT", etc.
 - I loaded patterns from a .json file like this:
-<img width="599" alt="Screenshot 2025-04-14 at 10 50 28 PM" src="https://github.com/user-attachments/assets/69eba3f3-c134-455a-9a68-914f8d654a19" />
-<img width="576" alt="Screenshot 2025-04-14 at 10 50 44 PM" src="https://github.com/user-attachments/assets/e7cc6296-4c2a-4c62-a69c-a3152285922f" />
+
+| <code><img height="100" src="patterns/expander1.png"></code> | 
+|:--:| 
+| *What the expander widget feature looks like on the streamlit app* |
+<br />
+
+| <code><img height="100" src="patterns/expander2.png"></code> | 
+|:--:| 
+| *Code used to create expander widget* |
+<br />
 
 _______________________________________________________________________________________________________________________________________________
 Technical Stack
