@@ -67,16 +67,37 @@ We automatically apply the correct tariff percentage based on the country of ori
 No need to research tariff rates or do any math — this tool does it all for you.
 """)
 
-#creating the tool itself
+#creating the tool itself (NEW Tarriff Rate)
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 country = st.selectbox("Select manufacturing country:", df["Country"])
-product = st.text_input("Product name:", placeholder="e.g. mascara")
 price = st.number_input("Original product price ($):", min_value=0.0)
 
 tariff_rate = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
 new_price = price * (1 + tariff_rate / 100)
 
 st.success(f"{product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
+#adding source
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+            <u>Source of Tool Percentages </u>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+#creating the tool itself OLD Tariff rate
+df = pd.read_csv("StreamlitFinal/data/v3.csv")
+country = st.selectbox("Select manufacturing country:", df["Country"])
+price = st.number_input("Original product price ($):", min_value=0.0)
+
+tariff_ratee = df.loc[df["Country"] == country, "Old_Tariff_Rate"].values[0]
+new_pricee = price * (1 + tariff_rate / 100)
+
+st.success(f"{product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
+
 #adding source
 st.markdown(
     """
