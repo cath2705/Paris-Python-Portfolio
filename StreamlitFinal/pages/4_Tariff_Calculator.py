@@ -103,7 +103,7 @@ with col1:
 
 with col2:
     st.subheader("❄️ New Tariff Calculator (Post April 9th Freeze)")
-    st.success(f"A product that originally cost '$'{price} made in {country} now costs **'$'{new_price:.2f}** due to a {new_tariff}% tariff.")
+    st.success(f"A product that originally cost ${price:.2f} made in {country} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
 
 # --- Source ---
 st.markdown(
