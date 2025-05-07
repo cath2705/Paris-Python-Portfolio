@@ -169,7 +169,7 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
             color="New_Tarriff_Rate",  # Spelling intentional
             hover_name="Country",
             hover_data={"New_Hover": True},
-            color_continuous_scale="Blues",
+            color_continuous_scale="Reds",
             title="New Tariff Intensity by Country",
             width=1000,
             height=600
