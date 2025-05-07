@@ -6,26 +6,46 @@ st.set_page_config(page_title="Tariff Timeline", layout="centered")
 st.title("📅 Interactive Tariff Policy Timeline")
 st.markdown("Explore key moments in global tariff policy with this interactive timeline.")
 
-#text explaining the app 
+#text line seperating information
 st.markdown("""
-Purpose  
+---
+                        """)
+
+st.markdown(
+    "<h3 style='text-align: center;'>Tariff Timeline Tool</h3>",
+    unsafe_allow_html=True
+)
+#explaining how the tool works and what it can be used for
+st.markdown("""
+ **Purpose**
 This timeline allows you to **visually explore the evolution of major U.S. tariff policies**, especially under the 2025 Trump administration.  
 It’s perfect for understanding when and how key decisions were made — including executive orders, retaliatory tariffs, and international responses.
 
-How to Use  
-- Tap through the timeline to view an event.  
-- Use the arrows or scroll bar to **move through time**.  
-- Read summaries of each event, including **tariff increases, policy changes, and exemptions**.  
 
-The Timeline Will Then:  
-🗓️ Show you **what happened**, **when**, and **why it matters**  
-📌 Highlight key moments like **President Trump's inauguration** and **China retaliation policies**  
-🔍 Help you **trace escalation patterns** in the global trade landscape  
-🎯 Let you focus on **policy progression** without reading dense government reports
+ **How to Use**
+
+1. Tap through the timeline to view an event 
+2. Use the arrows or scroll bar to **move through time**.  
+3. Read summaries of each event, including **tariff increases, policy changes, and exemptions**.  
+
+**Reminder:** Some explanations are longer than others—make sure to scroll down to read everything and so you don’t miss any hidden text!
             
- ---
 
+**The Tool Will Then:**
+
+- 🗓️ Show you **what happened**, **when**, and **why it matters**  
+- 📌 Highlight key moments like **President Trump's inauguration** and **China retaliation policies**  
+- 🔍 Help you **trace escalation patterns** in the global trade landscape  
+- 🎯 Let you focus on **policy progression** without reading dense government reports
+            
+
+✅ That’s it!
+No need to sift through all the updates on your own to figure out what caused what—-just look through this timeline for a clear, step-by-step explanation.
 """)
+
+st.markdown("""
+---
+                        """)
 
 # Inject custom CSS to color the bottom timeline bar and axis text
 st.markdown("""
@@ -483,7 +503,7 @@ data = {
     {
       "start_date": {
         "year": 2025,
-        "month": 4,
+        "month": 5,
         "day": 4
       },
       "text": {
@@ -513,3 +533,9 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.markdown("""
+---
+                        """)
+
+st.markdown("""
+Note: Events related to tariffs, Trump, and national security are constantly evolving. This timeline is current as of May 6th, but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
