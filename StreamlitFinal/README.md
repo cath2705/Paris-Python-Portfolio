@@ -44,9 +44,9 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 - Displays key global tariff events during Trump’s 2025 administration, including executive orders and international responses.
 - Embeds high-quality media (e.g., images from CNN) to contextualize each event.
   
-| <code><img height="300" src="patterns/quiz.png"></code> | 
+| <code><img height="500" src="images/time-expo.png"></code> | 
 |:--:| 
-| *What the interactive quiz feature looks like on the streamlit app* |
+| *What the interactive timeline feature looks like on the streamlit app* |
 <br />
 
 | <code><img height="400" src="patterns/quiz2.png"></code> | 
@@ -60,9 +60,9 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 - Users can hover over any country to view the exact average tariff rate the U.S. has imposed.
 - Applies a red-to-blue diverging color scale to visually communicate tariff intensity.
   
-| <code><img height="300" src="patterns/quiz.png"></code> | 
+| <code><img height="300" src="images/hover-expo.png"></code> | 
 |:--:| 
-| *What the interactive quiz feature looks like on the streamlit app* |
+| *What the hover map feature looks like on the streamlit app* |
 <br />
 
 | <code><img height="400" src="patterns/quiz2.png"></code> | 
@@ -75,9 +75,9 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 - Uses Streamlit widgets (selectbox and number_input) for dynamic interactivity.
 - Automatically calculates product prices under both pre- and post-April 9th tariff rates.
 
-| <code><img height="300" src="patterns/quiz.png"></code> | 
+| <code><img height="300" src="images/calc-expo.png"></code> | 
 |:--:| 
-| *What the interactive quiz feature looks like on the streamlit app* |
+| *What the Tariff Calculator feature looks like on the streamlit app* |
 <br />
 
 | <code><img height="400" src="patterns/quiz2.png"></code> | 
