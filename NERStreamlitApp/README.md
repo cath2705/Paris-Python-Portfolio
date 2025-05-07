@@ -125,7 +125,7 @@ Here is an explanation of some of the main features I used to make my app intera
 | *What the custom entity rule builder looks like on the streamlit app* |
 <br />
 
-| <code><img height="100" src="patterns/expander2.png"></code> | 
+| <code><img height="100" src="patterns/sidebar.png"></code> | 
 |:--:| 
 | *Code used to create expander widget* |
 <br />
