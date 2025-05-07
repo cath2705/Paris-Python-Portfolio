@@ -156,5 +156,5 @@ with st.expander("What Does Purchasing Power Mean👉"):
         st.markdown("""
                     **Purchasing power** refers to the amount of goods or services that a person can buy with a certain amount of money. When prices go up—like in the case of tariffs—your purchasing power goes down because the same amount of money buys you **less** than it did before.
                     
-                    For example, if you had \$1,000 to spend on tech and laptops used to cost \$500, you could buy two. But if tariffs raise laptop prices to 750 dollar each, now you can only afford one. Your **purchasing power has decreased** even though the amount of money you have hasn’t changed.
+                    For example, if you had \$1,000 to spend on tech and laptops used to cost \$500, you could buy two. But if tariffs raise laptop prices to \$750 dollar each, now you can only afford one. Your **purchasing power has decreased** even though the amount of money you have hasn’t changed.
                     """)
