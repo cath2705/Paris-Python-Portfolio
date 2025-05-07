@@ -71,6 +71,11 @@ No need to research tariff rates or do any math — this tool does it all for yo
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
 
 # Initialize outside values for comparison
+# Initialize shared comparison variables
+country_old = None
+country_new = None
+price_old = 0
+price = 0
 old_price = None
 new_price = None
 
