@@ -23,25 +23,25 @@ ________________________________________________________________________________
 ## Overview of the App's Layout 
 The app is composed of 4 pages that each serve a different informational purpose. 
 Here is an overview of the website structure:
+<code><img height="200" src="patterns/roadmap.png"></code> 
 
 Here is a description of what each page does: 
 
 1. "Welcome" Page:
 - Introduces the concept of NER in simple language.
-- Combines markdown, emojis, and visuals for engaging storytelling.
 - Displays images and examples (e.g., Barack Obama being tagged as a PERSON).
-- Includes an interactive quiz to let users guess what constitutes a named entity.
 - Uses Streamlit Expander widgets to deliver optional deeper learning moments.
 
 2. "Basic NER" Page:
 - Loads a base spaCy model (en_core_web_sm).
 - Allows user to: Upload a .txt file or input custom text
-- Text is analyzed using pre-defined rule patterns from a local JSON file.
+- Text is analyzed using pre-defined rule patterns
 - Uses a custom-built highlight_entities function for colorful entity tagging.
 - Prompts users to reflect on what the model got right/wrong (including with ambiguity).
 - Features Lottie animations to maintain engagement.
 
 3. "How Ner Works" Page:
+- Includes an interactive quiz to let users guess what constitutes a named entity.
 - Describes the NER pipeline in five intuitive steps: Tokenization, Entity Identification, Entity Classification, Contextual Analysis, Post-Processing
 - Embeds real-world illustrations and text to demonstrate complex topics.
 - Discusses ambiguity and context dependency, showcasing challenges in NLP.
