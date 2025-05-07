@@ -51,8 +51,13 @@ df["Avg_Hover"] = df.apply(
 )
 
 # Display third map (centered full width)
-st.markdown("---")
 st.markdown("<h3 style='text-align: center;'>📊 Average Tariff Rate Map</h3>", unsafe_allow_html=True)
+
+with st.container():
+    st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+    st.plotly_chart(fig_avg, use_container_width=False)
+    st.markdown("</div>", unsafe_allow_html=True)
+
 
 fig_avg = px.choropleth(
     df,
