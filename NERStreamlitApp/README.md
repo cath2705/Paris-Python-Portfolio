@@ -120,9 +120,9 @@ Here is an explanation of some of the main features I used to make my app intera
 - Users can add their own custom entity rules (e.g., tagging “Tesla” as a BRAND) directly through a sidebar input form.
 - These rules are saved to session state and dynamically used in the entity recognition process.
 
-| <code><img height="100" src="patterns/expander1.png"></code> | 
+| <code><img height="500" src="patterns/Screenshot4.png"></code> | 
 |:--:| 
-| *What the expander widget feature looks like on the streamlit app* |
+| *What the custom entity rule builder looks like on the streamlit app* |
 <br />
 
 | <code><img height="100" src="patterns/expander2.png"></code> | 
