@@ -27,7 +27,7 @@ The Timeline Will Then:
 
 """)
 
-# 🔧 Inject custom CSS to color the bottom timeline bar and axis text
+# Inject custom CSS to color the bottom timeline bar and axis text
 st.markdown("""
     <style>
     .tl-timeaxis {
@@ -40,7 +40,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Your manually created timeline data
+# Timeline data + images + captions
 data = {
     "title": {
         "text": {
