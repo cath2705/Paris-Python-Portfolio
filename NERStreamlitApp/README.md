@@ -22,9 +22,7 @@ ________________________________________________________________________________
 
 ## Overview of the App's Layout 
 The app is composed of 4 pages that each serve a different informational purpose. 
-Here is an overview of the folder structure:
-
-<img width="431" alt="Screenshot 2025-04-14 at 10 46 46 PM" src="https://github.com/user-attachments/assets/a969dd9f-0bf9-4b29-b03c-fd10f0b2b1c8" />
+Here is an overview of the website structure:
 
 Here is a description of what each page does: 
 
@@ -102,21 +100,8 @@ Here is an explanation of some of the main features I used to make my app intera
 | *Code used to create Lottie Animation* |
 <br />
 
-4. spaCy’s EntityRuler for Custom Patterns
-- The Custom NER Explorer page uses spaCy’s EntityRuler to let users define custom entity types like "BRAND" or "TECH".
-- These patterns are loaded from .json files or user inputs and applied to the NLP pipeline.
-
-| <code><img height="100" src="patterns/expander1.png"></code> | 
-|:--:| 
-| *What the expander widget feature looks like on the streamlit app* |
-<br />
-
-| <code><img height="100" src="patterns/expander2.png"></code> | 
-|:--:| 
-| *Code used to create expander widget* |
-<br />
-
-5. Custom Entity Rule Builder (Sidebar Form)
+4. Custom Entity Rule Builder (Sidebar Form)
+- The Custom NER Explorer page uses spaCy’s EntityRuler to let users define custom entity types like "BRAND" or "TECH". 
 - Users can add their own custom entity rules (e.g., tagging “Tesla” as a BRAND) directly through a sidebar input form.
 - These rules are saved to session state and dynamically used in the entity recognition process.
 
@@ -130,18 +115,18 @@ Here is an explanation of some of the main features I used to make my app intera
 | *Code used to create sidebar custom rule* |
 <br />
 
-6. Live Entity Display with displaCy
+5. Live Entity Display with displaCy
 - The app uses spaCy’s displacy.render() to visually display named entities in the analyzed text using color-coded highlights.
 - This enhances user understanding by showing results in an intuitive, readable format.
 
-| <code><img height="100" src="patterns/expander1.png"></code> | 
+| <code><img height="400" src="patterns/live.png"></code> | 
 |:--:| 
-| *What the expander widget feature looks like on the streamlit app* |
+| *What the Live Entity Display feature looks like on the streamlit app* |
 <br />
 
-| <code><img height="100" src="patterns/expander2.png"></code> | 
+| <code><img height="400" src="patterns/live2.png"></code> | 
 |:--:| 
-| *Code used to create expander widget* |
+| *Code used to create Live Entity Display* |
 <br />
 
 _______________________________________________________________________________________________________________________________________________
