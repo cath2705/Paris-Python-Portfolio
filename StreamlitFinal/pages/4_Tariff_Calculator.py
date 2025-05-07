@@ -73,7 +73,6 @@ st.markdown("""
 
 - 🔍 Automatically apply the correct tariff rate for that country  
 - 💰 Show you the **new total cost** after the tariff  
-- ➕ Optionally display the **amount added** due to the tariff  
 
 
 ✅ That’s it!
