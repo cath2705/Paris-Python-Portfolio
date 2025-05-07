@@ -97,12 +97,14 @@ with col2:
 
 # --- Price Comparison (Bottom) ---
 if (
-    country_old == country_new and
+    "country_old" in locals() and
+    "country_new" in locals() and
     price_old > 0 and
-    price_new > 0
+    price_new > 0 and
+    country_old == country_new
 ):
     price_diff = old_price - new_price
-    percent_change = (price_diff / old_price) * 100
+    percent_change = (price_diff / old_price) * 100 if old_price != 0 else 0
 
     st.markdown("---")
     st.subheader("📊 Price Comparison Summary")
