@@ -58,7 +58,7 @@ Here is a description of what each page does:
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## ⚙️ Key Features
-Here is an explaination of some of the main features I used to make my app interactive 
+Here is an explanation of some of the main features I used to make my app interactive 
 
 1. Quiz Widget
 - The "How NER Works" page includes an interactive quiz created with st.radio() and an if/else statement:
