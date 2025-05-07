@@ -100,6 +100,16 @@ st.plotly_chart(fig_avg)
 st.markdown("""
         Note: This map is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
 
+st.markdown(
+              """
+                <div style='text-align: center;'>
+                    <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+                    <u>Source of Map Data </u>
+                    </a>
+                 </div>
+              """,
+              unsafe_allow_html=True
+        )
 
 st.markdown("""
             ---
