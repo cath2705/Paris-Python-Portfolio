@@ -98,9 +98,7 @@ This project highlights my ability to:
 
 ## Running This App
 If you'd like to run this Streamlit app yourself,
-1) clone the repo: 
-git clone https://github.com/cath2705/Trump-Tariff-Tracker.git  
-cd Trump-Tariff-Tracker
+1) clone the repo & then cd Trump-Tariff-Tracker
 
 <br />
 
