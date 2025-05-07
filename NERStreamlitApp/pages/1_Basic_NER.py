@@ -22,11 +22,11 @@ st.write("""
 nlp = spacy.load("en_core_web_sm")
 
 # Load custom patterns
-patterns = load_patterns("NERStreamlitApp/patterns/example_patterns.json")
+# patterns = load_patterns("NERStreamlitApp/patterns/example_patterns.json")
 
 # Add EntityRuler with custom patterns
-ruler = nlp.add_pipe("entity_ruler", before="ner")
-ruler.add_patterns(patterns) 
+# ruler = nlp.add_pipe("entity_ruler", before="ner")
+# ruler.add_patterns(patterns) 
 
 # Sidebar for user input
 st.sidebar.header("Text Input Options")
