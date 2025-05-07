@@ -1,7 +1,11 @@
 # NERStreamlitApp
-This repository will include a custom Named Entity Recognition (NER) application using Python, spaCy, and Streamlit.
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-                                                                                      Named Entity Recognition (NER) Streamlit App
+ This ReadMe will provide an overview of my custom Named Entity Recognition (NER) application using Python, spaCy, and Streamlit.
+
+ ## 🔗 [Click here to access my NER Streamlit App Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/NERStreamlitApp/Welcome.py)
+## 🔗 [Click here to access the NER App!](https://paris-ner.streamlit.app/)
+
+### Custom NER APP
+<code><img height="500" src="patterns/overview.png"></code>
 
 Overview
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
