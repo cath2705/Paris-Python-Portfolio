@@ -6,7 +6,7 @@ st.set_page_config(page_title="Tariff Timeline", layout="centered")
 st.title("📅 Interactive Tariff Policy Timeline")
 st.markdown("Explore key moments in global tariff policy with this interactive timeline.")
 
-st.image("StreamlitFinal/images/trump2.png", caption="Source: BCC")
+st.image("StreamlitFinal/images/trump2.png", caption="Source: BBC")
 
 #text line seperating information
 st.markdown("""
@@ -541,3 +541,19 @@ st.markdown("""
 
 st.markdown("""
 Note: Events related to tariffs, Trump, and national security are constantly evolving. This timeline is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
+
+#text line seperating information
+st.markdown("""
+---
+                        """)
+
+#text line seperating information
+st.markdown("""
+As you explore the interactive timeline, it’s important to note that you are looking at an **aggregate view** of all of Trump’s executive actions related to tariffs and trade—across every country involved. This broad perspective helps illustrate the full scope of activity, but it's also important to consider how the **same data** can tell different stories depending on how it's framed.
+                        """)
+#add image
+st.image("StreamlitFinal/images/China_Timeline.png", caption="Source: BBC")
+
+st.markdown("""
+For example, look at this chart that isolates only Trump’s actions toward China. Compared to the broader timeline, where Trump appears to alternate between applying pressure and easing off through negotiation, the China-specific timeline reveals a more **linear narrative: a steady increase in pressure.**
+                        """)
