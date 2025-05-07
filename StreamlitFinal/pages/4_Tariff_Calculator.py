@@ -95,6 +95,24 @@ with col2:
 
     st.success(f"A product made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
 
+# --- Price Comparison (Bottom) ---
+if (
+    country_old == country_new and
+    price_old > 0 and
+    price_new > 0
+):
+    price_diff = old_price - new_price
+    percent_change = (price_diff / old_price) * 100
+
+    st.markdown("---")
+    st.subheader("📊 Price Comparison Summary")
+    st.markdown(f"""
+    - **Old Tariff Price:** ${old_price:.2f}  
+    - **New Tariff Price:** ${new_price:.2f}  
+    - **Price Difference:** ${price_diff:.2f}  
+    - **Change:** {percent_change:.2f}% {"decrease" if percent_change > 0 else "increase"}
+    """)
+
 
 #adding source
 st.markdown(
