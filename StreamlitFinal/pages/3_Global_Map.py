@@ -110,12 +110,12 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
                     
                     One of the most important dates to focus on is **April 9th.** As noted in the timeline, on this day President Trump implemented a **temporary 90-day freeze on all tariffs,** except those targeting China.
                   
-                    To understand the impact of this freeze, you can compare **two maps:** one showing tariff rates **before April 9th** and one showing them **after.** This side-by-side view helps illustrate the dramatic shift in tariff intensity that **would have remained in effect if not for the pause.**
+                    To understand the impact of this freeze, you can compare **two maps:** one showing tariff rates **before April 9th** and one showing them **after.** This will help illustrate the dramatic shift in tariff intensity that **would have remained in effect if not for the pause.**
 
                     ---
                     
-                    - The **left map** shows **Old Tariff Rates** (before April 9th, or pre-freeze)
-                    - The **right map** shows **New Tariff Rates** (after April 9th, or post-freeze)
+                    - The **first map** shows **Old Tariff Rates** (before April 9th, or pre-freeze)
+                    - The **second map** shows **New Tariff Rates** (after April 9th, or post-freeze)
                      
                     **Darker colors** indicate **higher tariff intensities**. You can:
                     - **Zoom**, pan, and explore both maps.
@@ -157,7 +157,7 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
             
         fig_old.update_coloraxes(colorbar_title="Old Tariff Rate")
         
-        st.subheader("Old Tariff Rate Map")
+        st.subheader("Old Tariff Rate (Pre-April 9th) Map")
         st.plotly_chart(fig_old,)
         
         # NEW Tariff Map
@@ -182,7 +182,7 @@ with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
         
         fig_new.update_coloraxes(colorbar_title="New Tariff Rate")
         
-        st.subheader("New Tariff Rate Map")
+        st.subheader("New Tariff Rate Map (Post-April 9th)")
         st.plotly_chart(fig_new)
         
         # adding link to source
