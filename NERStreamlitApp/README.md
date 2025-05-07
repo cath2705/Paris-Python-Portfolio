@@ -147,9 +147,7 @@ This project highlights my ability to:
 ## 🚀 How to Run This Project
 If you'd like to run this Streamlit app yourself,
 
-Clone the repository:
-- git clone https://github.com/cath2705/Paris-Python-Portfolio.git 
-- cd NERStreamlitApp
+Clone the repository and then cd NERStreamlitApp
 
 Create a virtual environment and activate it:
 - python -m venv ner_env
