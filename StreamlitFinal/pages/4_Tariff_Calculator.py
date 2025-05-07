@@ -59,7 +59,9 @@ It’s important to clarify that these “old tariffs” were in place for only 
 When we use terms like old and new tariffs, we are not comparing pre-Trump and Trump-era tariffs. Instead, we are comparing two Trump-era rates:
 * **Old tariffs** = Tariff rates from **April 4–9**
 * **New tariffs** = Adjusted, temporary rates **after April 9**
-In many cases (excluding China), the new tariff rates should actually reduce the cost of goods compared to the old rates. This is because the post-April 9 rates are part of a temporary freeze intended to ease the intensity of the tariffs. However, it’s important not to be misled—**both tariff rates were introduced under the Trump administration,** and the lower rate is only temporary.
+In many cases (excluding China), the new tariff rates should actually reduce the cost of goods compared to the old rates. This is because the post-April 9 rates are part of a temporary freeze intended to ease the intensity of the tariffs. 
+
+                    However, it’s important not to be misled—**both tariff rates were introduced under the Trump administration,** and the lower rate is only temporary.
 To accurately understand price changes, it is useful to compare item costs under both tariff scenarios. But when we refer to original cost, we specifically mean the **price of the item before any tariffs were enacted at all**—that is, **before April 4th.**
 
                     """)
