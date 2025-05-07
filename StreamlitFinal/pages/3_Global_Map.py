@@ -98,7 +98,7 @@ fig_avg.update_coloraxes(colorbar_title="Average Tariff Rate")
 st.plotly_chart(fig_avg)
 
 st.markdown("""
-        Note: This calculator is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
+        Note: This map is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
 
 
 st.markdown("""
