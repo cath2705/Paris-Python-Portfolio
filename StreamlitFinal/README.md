@@ -1,7 +1,7 @@
 # About my Final Streamlit App!
  This ReadMe will explain my Final Streamlit App, which is an app to explore President Trump's Tariffs
 
- ## 🔗 [Click here to access my Final Streamlit App Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/basic_streamlit_app/main.py)
+ ## 🔗 [Click here to access my Final Streamlit App Code](https://github.com/cath2705/Paris-Python-Portfolio/blob/main/StreamlitFinal/main.py)
 ## 🔗 [Click here to access the App!](https://tariff-tracker-catherine.streamlit.app/)
 
 <code><img height="500" src="images/Trump-.jpg"></code>
