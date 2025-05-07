@@ -67,16 +67,40 @@ We automatically apply the correct tariff percentage based on the country of ori
 No need to research tariff rates or do any math — this tool does it all for you.
 """)
 
-#creating the tool itself (NEW Tarriff Rate)
+
+# Load data once
 df = pd.read_csv("StreamlitFinal/data/v3.csv")
-country = st.selectbox("Select manufacturing country:", df["Country"])
+
+# User inputs
+product = st.text_input("Enter product name:")
+country = st.selectbox("Select manufacturing country:", df["Country"].unique())
 price = st.number_input("Original product price ($):", min_value=0.0)
 
-tariff_rate = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
-new_price = price * (1 + tariff_rate / 100)
+# Display prices if inputs are valid
+if product and country and price:
+    old_tariff = df.loc[df["Country"] == country, "Old_Tariff_Rate"].values[0]
+    new_tariff = df.loc[df["Country"] == country, "New_Tarriff_Rate"].values[0]
 
-st.success(f"{product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
-#adding source
+    old_price = price * (1 + old_tariff / 100)
+    new_price = price * (1 + new_tariff / 100)
+
+    st.markdown(f"### {product} made in {country}")
+    st.success(f"💸 **Old Tariff Price:** ${old_price:.2f} (at {old_tariff}% tariff)")
+    st.success(f"📈 **New Tariff Price:** ${new_price:.2f} (at {new_tariff}% tariff)")
+
+# Source
+st.markdown(
+    """
+    <div style='text-align: center; margin-top: 20px;'>
+        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
+            <u>Source of Tool Percentages</u>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+## LOLLL might be the same thing 
 st.markdown(
     """
     <div style='text-align: center;'>
@@ -88,15 +112,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-#creating the tool itself OLD Tariff rate
-df = pd.read_csv("StreamlitFinal/data/v3.csv")
-country = st.selectbox("Select manufacturing country:", df["Country"])
-price = st.number_input("Original product price ($):", min_value=0.0)
-
-tariff_ratee = df.loc[df["Country"] == country, "Old_Tariff_Rate"].values[0]
-new_pricee = price * (1 + tariff_rate / 100)
-
-st.success(f"{product} made in {country} now costs **${new_price:.2f}** due to a {tariff_rate}% tariff.")
 
 #adding source
 st.markdown(
