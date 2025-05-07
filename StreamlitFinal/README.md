@@ -85,3 +85,32 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 | *Code used to create Tariff Calculator* |
 <br />
 
+## 🧰 Skills Demonstrated
+This project highlights my ability to:
+
+- 🔧Build multi-page interactive apps using Streamlit
+- 📊 Visualize data dynamically with Plotly and pandas
+- 🧮 Implement real-time calculations with responsive user inputs
+- 🎨 Design accessible, engaging interfaces using images, hover maps, and success messages
+- 📚 Combine historical context with data science to tell meaningful, policy-driven stories
+  
+<br />
+
+## Running This App
+If you'd like to run this Streamlit app yourself,
+1) clone the repo: 
+git clone https://github.com/cath2705/Trump-Tariff-Tracker.git  
+cd Trump-Tariff-Tracker
+
+<br />
+
+2) Install requirements: 
+pip install streamlit pandas plotly streamlit_timeline
+
+<br />
+
+3) Run the app:
+streamlit run main.py
+
+### Enjoy Learning about Tariffs
+<code><img height="500" src="images/make_wealthy1.png"></code>
