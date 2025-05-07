@@ -37,10 +37,6 @@ In the early part of the second Trump administration (January–April 2025), the
 
 This historic increase was fueled by proposed tariffs on imports from **57 countries**, ranging between **11% and 50%**. These tariffs were scheduled to take effect on **April 9, 2025**, but were later **suspended for 90 days — except for China**, where implementation continued.
 
-The visualizations below compare:
-- **Old Tariff Rates** (before April 9th, or pre-freeze)
-- **New Tariff Rates** (after April 9th, or post-freeze)
-
 ---
                         """)
 
@@ -51,8 +47,8 @@ st.markdown(
 
 st.markdown("""
 You’ll find **two interactive heat maps** displayed side-by-side:
-- The **left map** shows **old (pre-April 9th)** tariff rates.
-- The **right map** shows **new (post-April 9th)** tariff rates.
+- The **left map** shows **Old Tariff Rates** (before April 9th, or pre-freeze)
+- The **right map** shows **New Tariff Rates** (after April 9th, or post-freeze)
 
 **Darker colors** indicate **higher tariff intensities**. You can:
 - **Zoom**, pan, and explore both maps.
