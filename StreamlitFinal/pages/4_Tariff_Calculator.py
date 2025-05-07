@@ -99,11 +99,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("🕰️ Old Tariff Calculator (Pre April 9th)")
-    st.success(f"A product that originally cost {price} made in {country} now costs **${old_price:.2f}** due to a {old_tariff}% tariff.")
+    st.success(f"A product that originally cost **${price}** made in {country} now costs **${old_price:.2f}** due to a {old_tariff}% tariff.")
 
 with col2:
     st.subheader("❄️ New Tariff Calculator (Post April 9th Freeze)")
-    st.success(f"A product that originally cost {price} made in {country} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
+    st.success(f"A product that originally cost **${price}** made in {country} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
 
 # --- Source ---
 st.markdown(
