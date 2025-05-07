@@ -7,12 +7,10 @@
 ### Custom NER APP
 <code><img height="500" src="patterns/overview.png"></code>
 
-Overview
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+### 📌 Project Overview
 This Streamlit web application is a fully interactive, educational platform designed to help users understand and engage with Named Entity Recognition (NER), a core task in Natural Language Processing (NLP). The app introduces the concept of NER, explains how it works, walks users through the steps machines take to identify entities in text, and even allows users to explore NER hands-on using a custom-built entity recognition tool powered by spaCy.
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Goals of the Project
-
+_________________________________________________________________________________________________________________________________________________________________________________
+## Goals: 
 The app is designed to meet the following educational and functional goals:
 
 1. Demystify Named Entity Recognition for beginners through accessible explanations.
@@ -20,8 +18,9 @@ The app is designed to meet the following educational and functional goals:
 3. Provide interactive NER experiences, where users can input and analyze text.
 4. Allow for custom rule-based entity matching using spaCy's EntityRuler.
 5. Encourage exploration and critical thinking with embedded quiz questions, animations, and visual storytelling.
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-Overview of the App
+_________________________________________________________________________________________________________________________________________________________________________________
+
+## Overview of the App's Layout 
 The app is composed of 4 pages that each serve a different informational purpose. 
 Here is an overview of the folder structure:
 
@@ -29,20 +28,14 @@ Here is an overview of the folder structure:
 
 Here is a description of what each page does: 
 
-1. Welcome Page:
+1. "Welcome" Page:
 - Introduces the concept of NER in simple language.
 - Combines markdown, emojis, and visuals for engaging storytelling.
 - Displays images and examples (e.g., Barack Obama being tagged as a PERSON).
 - Includes an interactive quiz to let users guess what constitutes a named entity.
 - Uses Streamlit Expander widgets to deliver optional deeper learning moments.
 
-2. How Ner Works Page:
-- Describes the NER pipeline in five intuitive steps: Tokenization, Entity Identification, Entity Classification, Contextual Analysis, Post-Processing
-- Embeds real-world illustrations and text to demonstrate complex topics.
-- Discusses ambiguity and context dependency, showcasing challenges in NLP.
-- Uses side-by-side columns to compare interpretations visually
-
-3. Basic Named Entity Recognizer:
+2. "Basic NER" Page:
 - Loads a base spaCy model (en_core_web_sm).
 - Allows user to: Upload a .txt file or input custom text
 - Text is analyzed using pre-defined rule patterns from a local JSON file.
@@ -50,20 +43,37 @@ Here is a description of what each page does:
 - Prompts users to reflect on what the model got right/wrong (including with ambiguity).
 - Features Lottie animations to maintain engagement.
 
-4. Custom NER Explorer Page:
+3. "How Ner Works" Page:
+- Describes the NER pipeline in five intuitive steps: Tokenization, Entity Identification, Entity Classification, Contextual Analysis, Post-Processing
+- Embeds real-world illustrations and text to demonstrate complex topics.
+- Discusses ambiguity and context dependency, showcasing challenges in NLP.
+- Uses side-by-side columns to compare interpretations visually
+
+4. "Custom NER Explorer" Page:
 - Gives users full control to: Enter custom entity labels (e.g., PRODUCT, BRAND), Enter patterns (e.g., words/phrases to match), Dynamically build and save rules
 - spaCy’s EntityRuler integrates the user-defined patterns in real time.
 - Text is analyzed with both base model + custom patterns.
 - Visual feedback shows where rules are applied.
 - Empowers users to simulate how rule-based NLP systems work.
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________
-🔍 Key Features & Interactivity
+_________________________________________________________________________________________________________________________________________________________________________________
+
+## ⚙️ Key Features
 Here is an explaination of some of the main features I used to make my app interactive 
 
 1. Quiz Widget
-- The How This Works page includes an interactive quiz created with st.radio() and an if/else statement:
+- The "How NER Works" page includes an interactive quiz created with st.radio() and an if/else statement:
 - This lets users test their intuition before diving into how machines process similar patterns.
-  <img width="577" alt="Screenshot 2025-04-14 at 10 48 03 PM" src="https://github.com/user-attachments/assets/08997e82-37d0-428e-9583-fc12b0ed960e" />
+
+| <code><img height="100" src="patterns/quiz.png"></code> | 
+|:--:| 
+| *Code used to create interactive quiz* |
+<br />
+
+| <code><img height="200" src="patterns/quiz2.png"></code> | 
+|:--:| 
+| *What the interactive quiz feature looks like on the streamlit app* |
+<br />
+  
 
 2. Expander Widgets
 - Used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
@@ -104,8 +114,7 @@ This app is built with approachability and interactivity in mind:
 
 By blending text analysis with user-driven control, this app bridges the gap between abstract NLP concepts and hands-on understanding.
 _______________________________________________________________________________________________________________________________________________
-
-How to Run the App
+## 🚀 How to Run This Project
 
 Clone the repository:
 - git clone https://github.com/yourusername/NERStreamlitApp.git
@@ -121,7 +130,7 @@ Install dependencies:
 Run the app:
 - streamlit run Welcome.py
 _______________________________________________________________________________________________________________________________________________
-Credits
+## Credits
 
 Developed by Catherine for an educational NLP visualization project at the University of Notre Dame.
 Inspired by Streamlit’s interactive tools and spaCy’s flexible NLP pipelines.
