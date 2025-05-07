@@ -65,8 +65,7 @@ To accurately understand price changes, it is useful to compare item costs under
                     """)
 st.markdown("""
 2. **Select the country** where the product was developed or manufactured.
-3. Write the name of the product.
-4. **Press Enter.**
+3. **Press Enter.**
 
 **The Tool Will Then:**
 
@@ -100,11 +99,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("🕰️ Old Tariff Calculator (Pre April 9th)")
-    st.success(f"A product made in {country} used to cost **${old_price:.2f}** due to a {old_tariff}% tariff.")
+    st.success(f"A product that originally cost {price} made in {country} now costs **${old_price:.2f}** due to a {old_tariff}% tariff.")
 
 with col2:
     st.subheader("❄️ New Tariff Calculator (Post April 9th Freeze)")
-    st.success(f"A product made in {country} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
+    st.success(f"A product that originally cost {price} made in {country} now costs **${new_price:.2f}** due to a {new_tariff}% tariff.")
 
 # --- Source ---
 st.markdown(
@@ -112,18 +111,6 @@ st.markdown(
     <div style='text-align: center; margin-top: 30px;'>
         <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
             <u>Source of Tool Percentages</u>
-        </a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-#adding source
-st.markdown(
-    """
-    <div style='text-align: center;'>
-        <a href="https://www.theguardian.com/us-news/2025/apr/09/trump-tariffs-list-pause" target="_blank">
-            <u>Source of Tool Percentages </u>
         </a>
     </div>
     """,
