@@ -9,18 +9,26 @@ ________________________________________________________________________________
 ## Projects
 ## Final Streamlit App: Trump Tariff App
 🔗 [View Final Streamlit App Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/StreamlitFinal)
+🔗 [Click here to access the App!](https://tariff-tracker-catherine.streamlit.app/)
 
 ### 📄 Project Description
-This project focuses 
+This project explores the global impact of U.S. tariff policy during the Trump administration through an interactive **Streamlit app** that blends **data visualization,** **historical analysis, and user-driven computation.** Built with **Streamlit, pandas, and Plotly,** the app enables users to navigate a custom-built timeline of key policy events, interact with a choropleth map showing average country-level tariff rates, and use a real-time calculator to assess how tariffs affect consumer prices. The goal is to make complex economic policy more accessible by integrating data science, UX design, and political context into a cohesive and engaging user experience.
 
-<code><img height="500" src="__________"></code>
+<code><img height="500" src="StreamlitFinal/images/time-expo.png"></code>
 
 ### 💼 This project highlights my ability to:
-- Build multi-
+- Build **modular, multi-page Streamlit applications** with clean, well-documented code.
+- Integrate **interactive frontend elements** (e.g., st.selectbox, st.number_input, and image embeds) with real-time data processing using pandas.
+- Use **Plotly Express** to create hover-enabled, color-scaled choropleth maps that visualize complex policy data by country.
+- Implement custom interactive timelines with the **streamlit_timeline** component and **JSON event data.**
+- Translate dense political and economic content into engaging, user-friendly tools for exploring historical context and global impact.
+- Design with storytelling in mind—combining visualizations, contextual text, and user interactivity to enhance understanding of tariff dynamics.
+- Create practical tools (like the tariff calculator) that help users apply abstract policy concepts to real-world financial scenarios.
 
 _______________________________________________________________________________________________________________________________________________
 ## 🔍 Custom Named Entity Recognition (NER) Streamlit App!
 🔗 [View NER Streamlit App Project](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/NERStreamlitApp)
+🔗 [Click here to access the NER App!](https://paris-ner.streamlit.app/)
 
 ### 📄 Project Description
 This project focuses on Named Entity Recognition (NER) — a foundational Natural Language Processing (NLP) task — and presents it through an interactive, educational Streamlit app built from scratch using spaCy. The goal of the app is to help users intuitively understand how NER works, experiment with entity recognition on their own text, and even create custom rules for tagging new entity types.
@@ -76,6 +84,7 @@ ________________________________________________________________________________
 
 ## Basic Penguins Streamlit App!
 🔗 [View Basic Penguins Streamlit App](https://github.com/cath2705/Paris-Python-Portfolio/tree/main/basic_streamlit_app)
+🔗 [Click here to access the App!](https://paris-python-portfolio-penguins-app.streamlit.app/)
 
 ### 📄 Project Description
 In this project, I used Streamlit to create an interactive data exploration app for the Palmer Penguins dataset. This app leverages Streamlit’s UI components to allow users to filter, visualize, and analyze penguin data dynamically — right from the browser.
