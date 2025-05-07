@@ -128,7 +128,7 @@ Machines must be able to account for such contextual cues in order to accurately
 # Adding Image 
 st.image(
     "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/MSNBC/Components/Photo/_new/091015-pcw-appbeat-hmed.jpg",
-    use_container_width=True
+    #use_container_width=True
 )
 
 st.markdown("---")
