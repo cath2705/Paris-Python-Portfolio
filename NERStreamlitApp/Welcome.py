@@ -104,4 +104,4 @@ with st.expander("# Click to Find Out"):
 
 # Footer teaser
 st.markdown("---")
-st.markdown("👉 Head to the sidebar to try out the **Entity Recognizer** yourself!")
+st.markdown("👉 Head to the sidebar to try out a **Basic Named Entity Recognizer** yourself!")
