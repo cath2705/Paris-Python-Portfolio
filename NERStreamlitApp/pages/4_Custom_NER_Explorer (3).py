@@ -156,8 +156,6 @@ with st.expander("✋ Quick digression: See how custom rules improve accuracy"):
             caption="After adding custom rules"
         )
 
-    st.write("Notice how much more accurate the second version is.")
-
 st.markdown("---")
 
 st.write("""
