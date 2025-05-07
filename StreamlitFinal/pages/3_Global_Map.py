@@ -52,7 +52,7 @@ df["Avg_Hover"] = df.apply(
 
 # Display third map (centered full width)
 st.markdown("---")
-st.subheader("📊 Average Tariff Rate Map")
+st.markdown("<h3 style='text-align: center;'>📊 Average Tariff Rate Map</h3>", unsafe_allow_html=True)
 
 fig_avg = px.choropleth(
     df,
