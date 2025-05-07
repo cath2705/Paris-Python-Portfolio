@@ -61,8 +61,7 @@ Please note that this map reflects **average** effective tariff rates of each co
     """) 
 
 st.markdown(
-    "<h3 style='text-align: center;'>How to Use This Tool</h3>",
-    unsafe_allow_html=True
+    "**How to Use This Tool**"
 )
 
 st.markdown("""
