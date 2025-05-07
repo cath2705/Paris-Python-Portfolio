@@ -58,7 +58,7 @@ Here is a description of what each page does:
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## ⚙️ Key Features
-Here is an explaination of some of the main features I used to make my app interactive 
+Here is an explanation of some of the main features I used to make my app interactive 
 
 1. Quiz Widget
 - The "How NER Works" page includes an interactive quiz created with st.radio() and an if/else statement:
@@ -92,6 +92,20 @@ Here is an explaination of some of the main features I used to make my app inter
 - Lottie Animations are a way for me to implement fun animations on to my website pages
 - Streamlit doesn’t natively support Lottie JSON animations, so I imported the streamlit-lottie package and fetching animation JSON from a public URL using requests.get().
 
+| <code><img height="300" src="patterns/lottie1.png"></code> | 
+|:--:| 
+| *What the Lottie Animation feature looks like on the streamlit app* |
+<br />
+
+| <code><img height="300" src="patterns/lottie2.png"></code> | 
+|:--:| 
+| *Code used to create Lottie Animation* |
+<br />
+
+4. spaCy’s EntityRuler for Custom Patterns
+- The Custom NER Explorer page uses spaCy’s EntityRuler to let users define custom entity types like "BRAND" or "TECH".
+- These patterns are loaded from .json files or user inputs and applied to the NLP pipeline.
+
 | <code><img height="100" src="patterns/expander1.png"></code> | 
 |:--:| 
 | *What the expander widget feature looks like on the streamlit app* |
@@ -102,9 +116,23 @@ Here is an explaination of some of the main features I used to make my app inter
 | *Code used to create expander widget* |
 <br />
 
-4. spaCy’s EntityRuler for Custom Patterns
-- The Custom NER Explorer page uses spaCy's EntityRuler to let users define custom entity types like "BRAND", "PRODUCT", etc.
-- I loaded patterns from a .json file like this:
+5. Custom Entity Rule Builder (Sidebar Form)
+- Users can add their own custom entity rules (e.g., tagging “Tesla” as a BRAND) directly through a sidebar input form.
+- These rules are saved to session state and dynamically used in the entity recognition process.
+
+| <code><img height="500" src="patterns/Screenshot4.png"></code> | 
+|:--:| 
+| *What the custom entity rule builder looks like on the streamlit app* |
+<br />
+
+| <code><img height="100" src="patterns/expander2.png"></code> | 
+|:--:| 
+| *Code used to create expander widget* |
+<br />
+
+6. Live Entity Display with displaCy
+- The app uses spaCy’s displacy.render() to visually display named entities in the analyzed text using color-coded highlights.
+- This enhances user understanding by showing results in an intuitive, readable format.
 
 | <code><img height="100" src="patterns/expander1.png"></code> | 
 |:--:| 
