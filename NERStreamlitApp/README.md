@@ -64,21 +64,30 @@ Here is an explaination of some of the main features I used to make my app inter
 - The "How NER Works" page includes an interactive quiz created with st.radio() and an if/else statement:
 - This lets users test their intuition before diving into how machines process similar patterns.
 
-| <code><img height="100" src="patterns/quiz.png"></code> | 
+| <code><img height="300" src="patterns/quiz.png"></code> | 
+|:--:| 
+| *What the interactive quiz feature looks like on the streamlit app* |
+<br />
+
+| <code><img height="400" src="patterns/quiz2.png"></code> | 
 |:--:| 
 | *Code used to create interactive quiz* |
 <br />
 
-| <code><img height="200" src="patterns/quiz2.png"></code> | 
-|:--:| 
-| *What the interactive quiz feature looks like on the streamlit app* |
-<br />
-  
-
 2. Expander Widgets
 - Used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
 - This structure uses Streamlit's context manager (with) to create collapsible content regions.
-  <img width="586" alt="Screenshot 2025-04-14 at 10 49 03 PM" src="https://github.com/user-attachments/assets/9d497137-eecf-44e4-926a-f350b843a11f" />
+
+| <code><img height="300" src="patterns/quiz.png"></code> | 
+|:--:| 
+| *What the interactive quiz feature looks like on the streamlit app* |
+<br />
+
+| <code><img height="400" src="patterns/quiz2.png"></code> | 
+|:--:| 
+| *Code used to create interactive quiz* |
+<br />
+
 
 3. Side-by-side Layouts with st.columns
 - Used across pages to align text explanations with visuals (like diagrams or Lottie).
