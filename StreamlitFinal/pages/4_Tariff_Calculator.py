@@ -117,6 +117,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown("""
+        Note: This calculator is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
+
+
 #adding line break
 st.markdown(
     """

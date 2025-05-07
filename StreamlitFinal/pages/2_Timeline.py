@@ -537,7 +537,7 @@ st.markdown(
 )
 
 st.markdown("""
-        Note: Events related to tariffs, Trump, and national security are constantly evolving. This timeline is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
+        Note: This timeline is current as of **May 6th,** but developments may have occurred since then. **Be sure to consult multiple sources for the most up-to-date information.** """)
 
 #text line seperating information
 st.markdown("""
