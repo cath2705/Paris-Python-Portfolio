@@ -4,6 +4,9 @@ import streamlit as st
 st.set_page_config(page_title="Trump Tariff Explorer", layout="wide")
 
 st.title("🇺🇸 Welcome to Trump-Era Tariff Explorer 🇺🇸")
+
+st.image("StreamlitFinal/images/Trump-.jpg", caption="Source: Housing Wire")
+
 st.markdown("""
 Welcome!
 This interactive app explores the global impact of U.S. tariffs implemented during the Trump administration. Use the navigation to dive deeper into the data and context behind these tariffs through the following pages:
@@ -13,8 +16,6 @@ This interactive app explores the global impact of U.S. tariffs implemented duri
 
 Enjoy exploring—and uncover the story behind the numbers!
 """)
-
-st.image("StreamlitFinal/images/Trump-.jpg", caption="Source: Housing Wire")
 
 import streamlit as st
 import pandas as pd
