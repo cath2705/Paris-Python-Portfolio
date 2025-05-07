@@ -72,9 +72,7 @@ st.markdown("""
 - Dark blue indicates the highest tariff intensity
 - Dark red indicates the lowest tariff intensity
 
-This tool is designed to help users **quickly understand** which regions were most affected.
-
-   ---         
+This tool is designed to help users **quickly understand** which regions were most affected.      
             
             """)
 
@@ -99,36 +97,31 @@ fig_avg.update_coloraxes(colorbar_title="Average Tariff Rate")
 
 st.plotly_chart(fig_avg)
 
-
-
-
-
-
-
-
-
-
-
-
-st.markdown(
-    "<h3 style='text-align: center;'>How to Use This Tool</h3>",
-    unsafe_allow_html=True
-)
-
 st.markdown("""
-- The **left map** shows **Old Tariff Rates** (before April 9th, or pre-freeze)
-- The **right map** shows **New Tariff Rates** (after April 9th, or post-freeze)
+            ---
+                        """)
 
-**Darker colors** indicate **higher tariff intensities**. You can:
-- **Zoom**, pan, and explore both maps.
-- **Hover over any country** to see the specific tariff rate the US imposed on that country
 
-This tool is designed to help users **quickly understand** which regions were most affected.
+with st.expander("Curious About Tariffs at a Specific Point in Time? 👉"):
+        st.markdown("""
 
-   ---         
-            
-            """)
+                    Averages are helpful—but what if you want to see how Trump-era tariffs looked at a **particular** moment? Great question! If you're interested in how U.S. effective tariff rates evolved, especially during key policy shifts, you're in luck.
 
+                    
+                    One of the most important dates to focus on is **April 9th.** As noted in the timeline, on this day President Trump implemented a **temporary 90-day freeze on all tariffs,** except those targeting China.
+                  
+                    To understand the impact of this freeze, you can compare **two maps:** one showing tariff rates **before April 9th** and one showing them **after.** This side-by-side view helps illustrate the dramatic shift in tariff intensity that **would have remained in effect if not for the pause.**
+
+                    ---
+                    
+                    - The **left map** shows **Old Tariff Rates** (before April 9th, or pre-freeze)
+                    - The **right map** shows **New Tariff Rates** (after April 9th, or post-freeze)
+                     
+                    **Darker colors** indicate **higher tariff intensities**. You can:
+                    - **Zoom**, pan, and explore both maps.
+                    - **Hover over any country** to see the specific tariff rate the US imposed on that country
+
+                     """) 
 
 
 # Custom hover text
