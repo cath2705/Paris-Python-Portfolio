@@ -14,5 +14,7 @@ This interactive app explores the global impact of U.S. tariffs implemented duri
 Enjoy exploring—and uncover the story behind the numbers!
 """)
 
+st.image("StreamlitFinal/images/Trump-.jpg", caption="Source: Housing Wire")
+
 import streamlit as st
 import pandas as pd
