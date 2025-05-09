@@ -59,6 +59,11 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 | *Code used to create interactive timeline. Note: this is only a snippet of the full code. I had to code in the images, text, and sources for each point on the timeline* |
 <br />
 
+For your reference, here are some sources I used to figure out how to create this timeline!
+- [timeline](https://pypi.org/project/streamlit-timeline/)
+- [youtube tutorial](https://www.youtube.com/watch?v=ys8yd8hTxkU)
+
+
 **"Global Map" Page:**
 - Loads a CSV dataset of country-level tariff rates and computes an average effective rate.
 - Uses Plotly Express to generate an interactive choropleth world map.
@@ -74,6 +79,11 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 |:--:| 
 | *Code used to create hover map. When executing yourself, make sure to upload a dataset first!* |
 <br />
+
+For your reference, here are some sources I used to figure out how to create this hover map!
+- [Hover Text](https://plotly.com/python/hover-text-and-formatting/?utm_source=chatgpt.com)
+- [Making Choropleth Map](https://medium.com/analytics-vidhya/create-choropleth-maps-by-using-plotly-31771803da7)
+
 
 **"Tariff Calculator" Page:**
 - Allows users to select a country and input a product’s base price.
