@@ -94,5 +94,16 @@ pip install streamlit pandas
 3) Run the app:
 streamlit run main.py
 
+**Note: This app was developed using Python 3.11 and tested with the following package versions:**
+- streamlit ≥ 1.30
+- pandas ≥ 2.2
+- matplotlib ≥ 3.8
+- seaborn ≥ 0.13
+- random (built-in Python module)
+
+**Required Project Files:**
+- basic_streamlit_app/data/penguins.csv — dataset used for filtering and visualization
+- penguins_app.py — main file containing the Streamlit app logic
+
 ### Enjoy Learning about Penguins!
 <code><img height="500" src="image_penguin/pen-sc10.png"></code>
