@@ -52,6 +52,8 @@ The app starts with a welcoming title and provides an easy-to-use interface with
 |:--:| 
 | *What the fun fact feature looks like on the streamlit app* |
 
+For your reference, here are some sources I used to figure out how to create this fun fact feature!
+- [Python Random choice() Method](https://www.w3schools.com/python/ref_random_choice.asp?utm_source=chatgpt.com)
 <br />
 
 
