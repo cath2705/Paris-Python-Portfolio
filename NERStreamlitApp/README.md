@@ -79,6 +79,9 @@ Here is an explanation of some of the main features I used to make my app intera
 | *Code used to create interactive quiz* |
 <br />
 
+For your reference, here are some sources I used to figure out how to create this  interactive Quiz feature!
+- [Interactive Quiz](https://dev.to/blamsa0mine/building-an-interactive-quiz-app-with-streamlit-31l1)
+
 2. Expander Widgets
 - Expander widgets are used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
 - This structure uses Streamlit's context manager (with) to create collapsible content regions.
@@ -106,6 +109,10 @@ Here is an explanation of some of the main features I used to make my app intera
 |:--:| 
 | *Code used to create Lottie Animation* |
 <br />
+
+For your reference, here are some sources I used to figure out how to create this Lottie Animation feature!
+- [Lottie Animation](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
+
 
 4. Custom Entity Rule Builder (Sidebar Form)
 - The Custom NER Explorer page uses spaCy’s EntityRuler to let users define custom entity types like "BRAND" or "TECH". 
@@ -135,6 +142,11 @@ Here is an explanation of some of the main features I used to make my app intera
 |:--:| 
 | *Code used to create Live Entity Display* |
 <br />
+
+For your reference, here are some sources I used to figure out how to create Custom Entity Recognition with EntityRuler!
+- [EntityRecognizer · spaCy API Documentation](https://spacy.io/api/entityrecognizer)
+- [Building a Custom NER Model with spaCy: A Step-by-Step Guide](https://blog.futuresmart.ai/building-a-custom-ner-model-with-spacy-a-step-by-step-guide)
+- [Named Entity Recognition (NER) in Python with spaCy](https://www.analyticsvidhya.com/blog/2021/06/nlp-application-named-entity-recognition-ner-in-python-with-spacy/)
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
