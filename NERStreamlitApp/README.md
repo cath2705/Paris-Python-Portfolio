@@ -80,7 +80,7 @@ Here is an explanation of some of the main features I used to make my app intera
 <br />
 
 For your reference, here are some sources I used to figure out how to create this  interactive Quiz feature!
-- [Interactive Quiz](https://dev.to/blamsa0mine/building-an-interactive-quiz-app-with-streamlit-31l1)
+- [Building an Interactive Quiz App with Streamlit](https://dev.to/blamsa0mine/building-an-interactive-quiz-app-with-streamlit-31l1)
 
 2. Expander Widgets
 - Expander widgets are used throughout the app (like on the Welcome and Custom NER pages) to hide large blocks of text until the user is ready. This keeps the interface clean.
@@ -111,7 +111,7 @@ For your reference, here are some sources I used to figure out how to create thi
 <br />
 
 For your reference, here are some sources I used to figure out how to create this Lottie Animation feature!
-- [Lottie Animation](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
+- [Adding Lottie animation in Streamlit WebApp](https://www.geeksforgeeks.org/adding-lottie-animation-in-streamlit-webapp/)
 
 
 4. Custom Entity Rule Builder (Sidebar Form)
