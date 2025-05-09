@@ -115,5 +115,16 @@ pip install streamlit pandas plotly streamlit_timeline
 3) Run the app:
 streamlit run main.py
 
+**Note: The app was developed using Python 3.11 and tested with the following versions:**
+- streamlit ≥ 1.30
+- pandas ≥ 2.2
+- plotly ≥ 5.18
+- streamlit-timeline ≥ 0.0.5
+
+**Required Project Files & Folders:**
+- StreamlitFinal/data/v3.csv – contains tariff rate data
+- StreamlitFinal/images/ – folder containing reference images
+- JSON file used for the timeline tool
+
 ### Enjoy Learning about Tariffs
 <code><img height="500" src="images/make_wealthy1.png"></code>
