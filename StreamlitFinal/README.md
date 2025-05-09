@@ -60,8 +60,8 @@ Enter the base price of an item and instantly calculate its cost after U.S. tari
 <br />
 
 For your reference, here are some sources I used to figure out how to create this timeline!
-- [timeline](https://pypi.org/project/streamlit-timeline/)
-- [youtube tutorial](https://www.youtube.com/watch?v=ys8yd8hTxkU)
+- [Timeline Component](https://pypi.org/project/streamlit-timeline/)
+- [Creating Timelines in Streamlit webapp (youtube tutorial)](https://www.youtube.com/watch?v=ys8yd8hTxkU)
 
 
 **"Global Map" Page:**
@@ -81,8 +81,8 @@ For your reference, here are some sources I used to figure out how to create thi
 <br />
 
 For your reference, here are some sources I used to figure out how to create this hover map!
-- [Hover Text](https://plotly.com/python/hover-text-and-formatting/?utm_source=chatgpt.com)
-- [Making Choropleth Map](https://medium.com/analytics-vidhya/create-choropleth-maps-by-using-plotly-31771803da7)
+- [Hover Text and Formatting in Python](https://plotly.com/python/hover-text-and-formatting/?utm_source=chatgpt.com)
+- [Create Choropleth Maps by Using Plotly](https://medium.com/analytics-vidhya/create-choropleth-maps-by-using-plotly-31771803da7)
 
 
 **"Tariff Calculator" Page:**
